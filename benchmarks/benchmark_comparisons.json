@@ -1,0 +1,723 @@
+[
+  {
+    "scenario": "ComplexOrder_Invalid",
+    "argus_ns": 2450.3333333333335,
+    "playground_ns": 3573.3333333333335,
+    "ratio": 1.4583049925180247,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "ComplexOrder_Valid",
+    "argus_ns": 1639.3333333333333,
+    "playground_ns": 5763,
+    "ratio": 3.5154534363562426,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "EqField",
+    "argus_ns": 200.5333333333333,
+    "playground_ns": 236.26666666666668,
+    "ratio": 1.1781914893617025,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveFailure",
+    "argus_ns": 551.4666666666667,
+    "playground_ns": 574.0333333333333,
+    "ratio": 1.0409211798839457,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveFailureParallel",
+    "argus_ns": 340.0333333333333,
+    "playground_ns": 376.0333333333333,
+    "ratio": 1.1058719733359474,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveSuccess",
+    "argus_ns": 239,
+    "playground_ns": 411.3333333333333,
+    "ratio": 1.7210599721059971,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveSuccessParallel",
+    "argus_ns": 138.33333333333334,
+    "playground_ns": 260.7666666666667,
+    "ratio": 1.8850602409638555,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldFailure",
+    "argus_ns": 123.36666666666667,
+    "playground_ns": 271.8333333333333,
+    "ratio": 2.2034585247230476,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldFailureParallel",
+    "argus_ns": 81.99,
+    "playground_ns": 193.63333333333333,
+    "ratio": 2.3616701223726473,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveFailure",
+    "argus_ns": 746.6,
+    "playground_ns": 897.9666666666667,
+    "ratio": 1.2027413161889455,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveFailureParallel",
+    "argus_ns": 456.8333333333333,
+    "playground_ns": 579.1666666666666,
+    "ratio": 1.2677854797519152,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveSuccess",
+    "argus_ns": 584.6999999999999,
+    "playground_ns": 1091,
+    "ratio": 1.8659141440054732,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveSuccessParallel",
+    "argus_ns": 361.43333333333334,
+    "playground_ns": 673.0333333333333,
+    "ratio": 1.862123028682099,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysFailure",
+    "argus_ns": 913.5,
+    "playground_ns": 1134,
+    "ratio": 1.2413793103448276,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysFailureParallel",
+    "argus_ns": 573.4666666666667,
+    "playground_ns": 709.1333333333332,
+    "ratio": 1.2365728900255752,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysSuccess",
+    "argus_ns": 695.7666666666668,
+    "playground_ns": 1202,
+    "ratio": 1.7275906673693286,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysSuccessParallel",
+    "argus_ns": 414.26666666666665,
+    "playground_ns": 742,
+    "ratio": 1.7911168329578373,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagFailure",
+    "argus_ns": 181.96666666666667,
+    "playground_ns": 247.0666666666667,
+    "ratio": 1.3577578311045981,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagFailureParallel",
+    "argus_ns": 111.23333333333335,
+    "playground_ns": 183,
+    "ratio": 1.6451902906802516,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagSuccess",
+    "argus_ns": 115.3,
+    "playground_ns": 453.8666666666666,
+    "ratio": 3.9363978028331883,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagSuccessParallel",
+    "argus_ns": 67.31333333333333,
+    "playground_ns": 278.1666666666667,
+    "ratio": 4.1324155689808855,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldSuccess",
+    "argus_ns": 37.81333333333333,
+    "playground_ns": 106.56666666666666,
+    "ratio": 2.8182299012693934,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldSuccessParallel",
+    "argus_ns": 24.453333333333333,
+    "playground_ns": 73.99666666666667,
+    "ratio": 3.0260359869138496,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "NestedWorkspace_Invalid",
+    "argus_ns": 1013.6666666666666,
+    "playground_ns": 3478,
+    "ratio": 3.431108188096021,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "NestedWorkspace_Valid",
+    "argus_ns": 761.2333333333332,
+    "playground_ns": 5254,
+    "ratio": 6.901957349914613,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Oneof",
+    "argus_ns": 143.86666666666667,
+    "playground_ns": 153.8,
+    "ratio": 1.0690454124189064,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "OneofParallel",
+    "argus_ns": 82.55000000000001,
+    "playground_ns": 105.36666666666667,
+    "ratio": 1.2763981425398747,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "RequiredIf",
+    "argus_ns": 249.46666666666667,
+    "playground_ns": 334.90000000000003,
+    "ratio": 1.3424639230358097,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "SimpleUser_Invalid",
+    "argus_ns": 648.5666666666667,
+    "playground_ns": 1188.3333333333333,
+    "ratio": 1.8322454643573005,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "SimpleUser_Valid",
+    "argus_ns": 385.8333333333333,
+    "playground_ns": 1281,
+    "ratio": 3.320086393088553,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexFailure",
+    "argus_ns": 2220.6666666666665,
+    "playground_ns": 3289,
+    "ratio": 1.4810867607325129,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexFailureParallel",
+    "argus_ns": 1708,
+    "playground_ns": 2460.3333333333335,
+    "ratio": 1.4404761904761905,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexSuccess",
+    "argus_ns": 687.1666666666666,
+    "playground_ns": 1313.6666666666667,
+    "ratio": 1.911714770797963,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexSuccessParallel",
+    "argus_ns": 396.2,
+    "playground_ns": 777.5,
+    "ratio": 1.9623927309439677,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldFailure",
+    "argus_ns": 432.1666666666667,
+    "playground_ns": 729.2666666666668,
+    "ratio": 1.6874662553027382,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldFailureParallel",
+    "argus_ns": 283.09999999999997,
+    "playground_ns": 469.13333333333327,
+    "ratio": 1.6571294006829154,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldSuccess",
+    "argus_ns": 252.33333333333334,
+    "playground_ns": 500.5333333333333,
+    "ratio": 1.9836195508586525,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldSuccessParallel",
+    "argus_ns": 151,
+    "playground_ns": 311.43333333333334,
+    "ratio": 2.0624724061810156,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldFailure",
+    "argus_ns": 691.3666666666667,
+    "playground_ns": 1001.1,
+    "ratio": 1.4480015428378574,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldFailureParallel",
+    "argus_ns": 418.0666666666666,
+    "playground_ns": 625.5333333333334,
+    "ratio": 1.4962525912932552,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldSuccess",
+    "argus_ns": 495.8,
+    "playground_ns": 766.4666666666667,
+    "ratio": 1.54591905338174,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldSuccessParallel",
+    "argus_ns": 292.1666666666667,
+    "playground_ns": 479.8333333333333,
+    "ratio": 1.6423274386765543,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleFailure",
+    "argus_ns": 448.3333333333333,
+    "playground_ns": 584.1333333333333,
+    "ratio": 1.302899628252788,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleFailureParallel",
+    "argus_ns": 312.93333333333334,
+    "playground_ns": 390.3666666666666,
+    "ratio": 1.247443544951001,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleSuccess",
+    "argus_ns": 189.89999999999998,
+    "playground_ns": 296.93333333333334,
+    "ratio": 1.5636299806915923,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleSuccessParallel",
+    "argus_ns": 122,
+    "playground_ns": 177.86666666666667,
+    "ratio": 1.4579234972677597,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "VarPath",
+    "argus_ns": 3.7743333333333333,
+    "playground_ns": 46.96666666666667,
+    "ratio": 12.443698666431159,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "VarPathParallel",
+    "argus_ns": 2.316333333333333,
+    "playground_ns": 35.84666666666667,
+    "ratio": 15.475608001151247,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_ASCII",
+    "argus_ns": 91.76333333333334,
+    "playground_ns": 336.43333333333334,
+    "ratio": 3.6663155218133605,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Alpha",
+    "argus_ns": 85.56,
+    "playground_ns": 268.8,
+    "ratio": 3.1416549789621318,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Alphanum",
+    "argus_ns": 82.88,
+    "playground_ns": 252.20000000000002,
+    "ratio": 3.042953667953668,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Base64",
+    "argus_ns": 102.40000000000002,
+    "playground_ns": 301.46666666666664,
+    "ratio": 2.9440104166666656,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Base64URL",
+    "argus_ns": 105.63333333333333,
+    "playground_ns": 297.3666666666667,
+    "ratio": 2.8150836225938787,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Boolean",
+    "argus_ns": 80.20666666666666,
+    "playground_ns": 79.81666666666666,
+    "ratio": 0.9951375612999751,
+    "winner": "validator/v10"
+  },
+  {
+    "scenario": "Var_CIDR",
+    "argus_ns": 100.66666666666667,
+    "playground_ns": 231.53333333333333,
+    "ratio": 2.3,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Contains",
+    "argus_ns": 88.27,
+    "playground_ns": 87.51666666666667,
+    "ratio": 0.9914655790944451,
+    "winner": "validator/v10"
+  },
+  {
+    "scenario": "Var_Datetime",
+    "argus_ns": 119.03333333333332,
+    "playground_ns": 443.9666666666667,
+    "ratio": 3.7297675721086536,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_E164",
+    "argus_ns": 82.56,
+    "playground_ns": 267.46666666666664,
+    "ratio": 3.239664082687338,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Email",
+    "argus_ns": 147.9333333333333,
+    "playground_ns": 1014.3333333333334,
+    "ratio": 6.85669220369536,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_EndsWith",
+    "argus_ns": 34.416666666666664,
+    "playground_ns": 90.86333333333334,
+    "ratio": 2.6400968523002426,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Eq",
+    "argus_ns": 77.14,
+    "playground_ns": 81.97333333333334,
+    "ratio": 1.0626566416040102,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_FQDN",
+    "argus_ns": 99.11666666666667,
+    "playground_ns": 346.0333333333333,
+    "ratio": 3.4911720195056324,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Gt",
+    "argus_ns": 147.8,
+    "playground_ns": 236.20000000000002,
+    "ratio": 1.598105548037889,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Gte",
+    "argus_ns": 150.03333333333333,
+    "playground_ns": 233.13333333333333,
+    "ratio": 1.5538769162408352,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HSL",
+    "argus_ns": 114.63333333333333,
+    "playground_ns": 394.1666666666667,
+    "ratio": 3.4384995638266944,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HSLA",
+    "argus_ns": 118.53333333333335,
+    "playground_ns": 474.09999999999997,
+    "ratio": 3.999718785151855,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HTML",
+    "argus_ns": 87.90666666666665,
+    "playground_ns": 218.70000000000002,
+    "ratio": 2.4878659183983016,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HTMLEncoded",
+    "argus_ns": 77.86666666666666,
+    "playground_ns": 192.70000000000002,
+    "ratio": 2.474743150684932,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HexColor",
+    "argus_ns": 81.68666666666667,
+    "playground_ns": 326.03333333333336,
+    "ratio": 3.991267444707419,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Hexadecimal",
+    "argus_ns": 86.10000000000001,
+    "playground_ns": 280.5,
+    "ratio": 3.257839721254355,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Hostname",
+    "argus_ns": 97.75,
+    "playground_ns": 392.8666666666666,
+    "ratio": 4.019096334185848,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HostnamePort",
+    "argus_ns": 98.08999999999999,
+    "playground_ns": 373.73333333333335,
+    "ratio": 3.810106364902981,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IP",
+    "argus_ns": 97.48,
+    "playground_ns": 104.10000000000001,
+    "ratio": 1.0679113664341404,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IPv4",
+    "argus_ns": 94.88999999999999,
+    "playground_ns": 112.2,
+    "ratio": 1.182421751501739,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IPv6",
+    "argus_ns": 79.91666666666667,
+    "playground_ns": 104.63333333333333,
+    "ratio": 1.3092805005213763,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_JSON",
+    "argus_ns": 116.76666666666667,
+    "playground_ns": 142.4,
+    "ratio": 1.2195261204681702,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Latitude",
+    "argus_ns": 120.8,
+    "playground_ns": 262.8333333333333,
+    "ratio": 2.1757726269315674,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Len",
+    "argus_ns": 66.02,
+    "playground_ns": 94.55666666666667,
+    "ratio": 1.4322427547207919,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Longitude",
+    "argus_ns": 120.06666666666668,
+    "playground_ns": 292.7,
+    "ratio": 2.4378123264852856,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lowercase",
+    "argus_ns": 83.5,
+    "playground_ns": 87.05666666666667,
+    "ratio": 1.0425948103792415,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lt",
+    "argus_ns": 63.63666666666666,
+    "playground_ns": 92.83999999999999,
+    "ratio": 1.458907338536483,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lte",
+    "argus_ns": 68.48666666666666,
+    "playground_ns": 96.24000000000001,
+    "ratio": 1.4052370291054221,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_MAC",
+    "argus_ns": 102.23333333333333,
+    "playground_ns": 146.63333333333333,
+    "ratio": 1.4343006194978807,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Max",
+    "argus_ns": 67.53,
+    "playground_ns": 92.99333333333333,
+    "ratio": 1.3770669825756452,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Min",
+    "argus_ns": 65.53666666666666,
+    "playground_ns": 94.87,
+    "ratio": 1.4475865927470628,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_MultiRule",
+    "argus_ns": 124.46666666666665,
+    "playground_ns": 143.76666666666665,
+    "ratio": 1.1550615961435458,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Multibyte",
+    "argus_ns": 95.77333333333335,
+    "playground_ns": 138.86666666666665,
+    "ratio": 1.449951273841013,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Ne",
+    "argus_ns": 77.61333333333333,
+    "playground_ns": 80.76,
+    "ratio": 1.040542862051194,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Number",
+    "argus_ns": 107.16666666666667,
+    "playground_ns": 193.23333333333335,
+    "ratio": 1.8031104199066874,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Oneof",
+    "argus_ns": 83.17333333333333,
+    "playground_ns": 101.03333333333335,
+    "ratio": 1.2147322859890992,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Oneofci",
+    "argus_ns": 84.91,
+    "playground_ns": 107.63333333333333,
+    "ratio": 1.267616692183881,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_RGB",
+    "argus_ns": 114.39999999999999,
+    "playground_ns": 468.7,
+    "ratio": 4.0970279720279725,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_RGBA",
+    "argus_ns": 116.39999999999999,
+    "playground_ns": 525.1666666666666,
+    "ratio": 4.511741122565865,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Required",
+    "argus_ns": 25.386666666666667,
+    "playground_ns": 75.36666666666667,
+    "ratio": 2.9687500000000004,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_StartsWith",
+    "argus_ns": 86.51666666666665,
+    "playground_ns": 82.54333333333334,
+    "ratio": 0.9540743594683108,
+    "winner": "validator/v10"
+  },
+  {
+    "scenario": "Var_URI",
+    "argus_ns": 91.92999999999999,
+    "playground_ns": 194.5666666666667,
+    "ratio": 2.116465426592698,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_URL",
+    "argus_ns": 131.23333333333332,
+    "playground_ns": 361.59999999999997,
+    "ratio": 2.7553975107950217,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_URLEncoded",
+    "argus_ns": 89.93666666666667,
+    "playground_ns": 395.0333333333333,
+    "ratio": 4.392350172343501,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID",
+    "argus_ns": 133.16666666666666,
+    "playground_ns": 415.90000000000003,
+    "ratio": 3.1231539424280355,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID3",
+    "argus_ns": 166.8,
+    "playground_ns": 369.7333333333333,
+    "ratio": 2.2166266986410865,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID4",
+    "argus_ns": 133.93333333333334,
+    "playground_ns": 410.6666666666667,
+    "ratio": 3.0662020905923346,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID5",
+    "argus_ns": 134.16666666666666,
+    "playground_ns": 411.76666666666665,
+    "ratio": 3.0690683229813667,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Uppercase",
+    "argus_ns": 77.06333333333333,
+    "playground_ns": 88.41666666666667,
+    "ratio": 1.1473247112764393,
+    "winner": "go-argus"
+  }
+]
