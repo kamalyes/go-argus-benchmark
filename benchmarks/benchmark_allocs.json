@@ -1,0 +1,826 @@
+[
+  {
+    "scenario": "ComplexOrder_Invalid",
+    "argus_allocs": 16,
+    "playground_allocs": 41,
+    "argus_bytes": 2520,
+    "playground_bytes": 3081,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "ComplexOrder_Valid",
+    "argus_allocs": 1,
+    "playground_allocs": 19,
+    "argus_bytes": 208,
+    "playground_bytes": 581,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "EqField",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveFailure",
+    "argus_allocs": 8,
+    "playground_allocs": 13,
+    "argus_bytes": 256,
+    "playground_bytes": 348,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveFailureParallel",
+    "argus_allocs": 8,
+    "playground_allocs": 13,
+    "argus_bytes": 256,
+    "playground_bytes": 348,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveSuccess",
+    "argus_allocs": 1,
+    "playground_allocs": 8,
+    "argus_bytes": 24,
+    "playground_bytes": 145,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldArrayDiveSuccessParallel",
+    "argus_allocs": 1,
+    "playground_allocs": 8,
+    "argus_bytes": 24,
+    "playground_bytes": 145,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldFailure",
+    "argus_allocs": 3,
+    "playground_allocs": 5,
+    "argus_bytes": 88,
+    "playground_bytes": 216,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldFailureParallel",
+    "argus_allocs": 3,
+    "playground_allocs": 5,
+    "argus_bytes": 88,
+    "playground_bytes": 216,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveFailure",
+    "argus_allocs": 10,
+    "playground_allocs": 15,
+    "argus_bytes": 316,
+    "playground_bytes": 424,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveFailureParallel",
+    "argus_allocs": 10,
+    "playground_allocs": 15,
+    "argus_bytes": 316,
+    "playground_bytes": 424,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveSuccess",
+    "argus_allocs": 7,
+    "playground_allocs": 17,
+    "argus_bytes": 176,
+    "playground_bytes": 360,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveSuccessParallel",
+    "argus_allocs": 7,
+    "playground_allocs": 17,
+    "argus_bytes": 176,
+    "playground_bytes": 360,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysFailure",
+    "argus_allocs": 11,
+    "playground_allocs": 18,
+    "argus_bytes": 492,
+    "playground_bytes": 601,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysFailureParallel",
+    "argus_allocs": 11,
+    "playground_allocs": 18,
+    "argus_bytes": 492,
+    "playground_bytes": 601,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysSuccess",
+    "argus_allocs": 7,
+    "playground_allocs": 17,
+    "argus_bytes": 176,
+    "playground_bytes": 360,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldMapDiveWithKeysSuccessParallel",
+    "argus_allocs": 7,
+    "playground_allocs": 17,
+    "argus_bytes": 176,
+    "playground_bytes": 360,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagFailure",
+    "argus_allocs": 3,
+    "playground_allocs": 4,
+    "argus_bytes": 88,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagFailureParallel",
+    "argus_allocs": 3,
+    "playground_allocs": 4,
+    "argus_bytes": 88,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagSuccess",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldOrTagSuccessParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldSuccess",
+    "argus_allocs": 0,
+    "playground_allocs": 1,
+    "argus_bytes": 0,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "FieldSuccessParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 1,
+    "argus_bytes": 0,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "NestedWorkspace_Invalid",
+    "argus_allocs": 7,
+    "playground_allocs": 49,
+    "argus_bytes": 824,
+    "playground_bytes": 2793,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "NestedWorkspace_Valid",
+    "argus_allocs": 1,
+    "playground_allocs": 33,
+    "argus_bytes": 96,
+    "playground_bytes": 978,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Oneof",
+    "argus_allocs": 0,
+    "playground_allocs": 1,
+    "argus_bytes": 0,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "OneofParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 1,
+    "argus_bytes": 0,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "RequiredIf",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "SimpleUser_Invalid",
+    "argus_allocs": 5,
+    "playground_allocs": 18,
+    "argus_bytes": 552,
+    "playground_bytes": 744,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "SimpleUser_Valid",
+    "argus_allocs": 0,
+    "playground_allocs": 5,
+    "argus_bytes": 0,
+    "playground_bytes": 96,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexFailure",
+    "argus_allocs": 26,
+    "playground_allocs": 56,
+    "argus_bytes": 2328,
+    "playground_bytes": 2968,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexFailureParallel",
+    "argus_allocs": 26,
+    "playground_allocs": 56,
+    "argus_bytes": 2328,
+    "playground_bytes": 2968,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexSuccess",
+    "argus_allocs": 0,
+    "playground_allocs": 14,
+    "argus_bytes": 0,
+    "playground_bytes": 224,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructComplexSuccessParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 14,
+    "argus_bytes": 0,
+    "playground_bytes": 224,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldFailure",
+    "argus_allocs": 6,
+    "playground_allocs": 11,
+    "argus_bytes": 272,
+    "playground_bytes": 384,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldFailureParallel",
+    "argus_allocs": 6,
+    "playground_allocs": 11,
+    "argus_bytes": 272,
+    "playground_bytes": 384,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldSuccess",
+    "argus_allocs": 2,
+    "playground_allocs": 6,
+    "argus_bytes": 48,
+    "playground_bytes": 168,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossFieldSuccessParallel",
+    "argus_allocs": 2,
+    "playground_allocs": 6,
+    "argus_bytes": 48,
+    "playground_bytes": 168,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldFailure",
+    "argus_allocs": 7,
+    "playground_allocs": 13,
+    "argus_bytes": 304,
+    "playground_bytes": 440,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldFailureParallel",
+    "argus_allocs": 7,
+    "playground_allocs": 13,
+    "argus_bytes": 304,
+    "playground_bytes": 440,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldSuccess",
+    "argus_allocs": 3,
+    "playground_allocs": 8,
+    "argus_bytes": 80,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleCrossStructCrossFieldSuccessParallel",
+    "argus_allocs": 3,
+    "playground_allocs": 8,
+    "argus_bytes": 80,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleFailure",
+    "argus_allocs": 6,
+    "playground_allocs": 11,
+    "argus_bytes": 400,
+    "playground_bytes": 440,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleFailureParallel",
+    "argus_allocs": 6,
+    "playground_allocs": 11,
+    "argus_bytes": 400,
+    "playground_bytes": 440,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleSuccess",
+    "argus_allocs": 0,
+    "playground_allocs": 2,
+    "argus_bytes": 0,
+    "playground_bytes": 24,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "StructSimpleSuccessParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 2,
+    "argus_bytes": 0,
+    "playground_bytes": 24,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "VarPath",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "VarPathParallel",
+    "argus_allocs": 0,
+    "playground_allocs": 0,
+    "argus_bytes": 0,
+    "playground_bytes": 0,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_ASCII",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Alpha",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Alphanum",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Base64",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Base64URL",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Boolean",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_CIDR",
+    "argus_allocs": 1,
+    "playground_allocs": 5,
+    "argus_bytes": 16,
+    "playground_bytes": 88,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Contains",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Datetime",
+    "argus_allocs": 1,
+    "playground_allocs": 9,
+    "argus_bytes": 16,
+    "playground_bytes": 400,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_E164",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Email",
+    "argus_allocs": 1,
+    "playground_allocs": 6,
+    "argus_bytes": 16,
+    "playground_bytes": 104,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_EndsWith",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Eq",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_FQDN",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Gt",
+    "argus_allocs": 4,
+    "playground_allocs": 4,
+    "argus_bytes": 104,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Gte",
+    "argus_allocs": 4,
+    "playground_allocs": 4,
+    "argus_bytes": 104,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HSL",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HSLA",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HTML",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HTMLEncoded",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HexColor",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Hexadecimal",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Hostname",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_HostnamePort",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IP",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IPv4",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_IPv6",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_JSON",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Latitude",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Len",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Longitude",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lowercase",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lt",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Lte",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_MAC",
+    "argus_allocs": 1,
+    "playground_allocs": 2,
+    "argus_bytes": 16,
+    "playground_bytes": 24,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Max",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Min",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_MultiRule",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Multibyte",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Ne",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Number",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Oneof",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Oneofci",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_RGB",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_RGBA",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Required",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_StartsWith",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_URI",
+    "argus_allocs": 1,
+    "playground_allocs": 2,
+    "argus_bytes": 16,
+    "playground_bytes": 160,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_URL",
+    "argus_allocs": 1,
+    "playground_allocs": 2,
+    "argus_bytes": 16,
+    "playground_bytes": 160,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_URLEncoded",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID3",
+    "argus_allocs": 4,
+    "playground_allocs": 4,
+    "argus_bytes": 104,
+    "playground_bytes": 200,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID4",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_UUID5",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  },
+  {
+    "scenario": "Var_Uppercase",
+    "argus_allocs": 1,
+    "playground_allocs": 1,
+    "argus_bytes": 16,
+    "playground_bytes": 16,
+    "winner": "go-argus"
+  }
+]
