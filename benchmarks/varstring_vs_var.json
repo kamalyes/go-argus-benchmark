@@ -1,0 +1,716 @@
+[
+  {
+    "rule": "ASCII",
+    "varstring_ns": 30.849999999999998,
+    "var_ns": 56.74,
+    "ratio": 1.8392220421393843,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Alpha",
+    "varstring_ns": 26.39333333333333,
+    "var_ns": 51.52,
+    "ratio": 1.9520080828492046,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "AlphaSpace",
+    "varstring_ns": 28.176666666666666,
+    "var_ns": 54.59,
+    "ratio": 1.9374186679285463,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "AlphaUnicode",
+    "varstring_ns": 25.01,
+    "var_ns": 54.346666666666664,
+    "ratio": 2.1729974676795947,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Alphanum",
+    "varstring_ns": 27.23,
+    "var_ns": 53.903333333333336,
+    "ratio": 1.9795568613049332,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "AlphanumSpace",
+    "varstring_ns": 29.459999999999997,
+    "var_ns": 56.68,
+    "ratio": 1.9239646978954517,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "AlphanumUnicode",
+    "varstring_ns": 39.28,
+    "var_ns": 66.28666666666666,
+    "ratio": 1.6875424304141207,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "BCP47",
+    "varstring_ns": 24.74333333333333,
+    "var_ns": 48.35666666666666,
+    "ratio": 1.9543311329651085,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "BIC",
+    "varstring_ns": 25.923333333333332,
+    "var_ns": 51.26333333333333,
+    "ratio": 1.9774977497749775,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Base32",
+    "varstring_ns": 83.07666666666667,
+    "var_ns": 116.06666666666666,
+    "ratio": 1.3971030774786342,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Base64",
+    "varstring_ns": 43.84666666666667,
+    "var_ns": 69.31333333333335,
+    "ratio": 1.5808119203284174,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Base64RawURL",
+    "varstring_ns": 39.21,
+    "var_ns": 64.61,
+    "ratio": 1.6477939301198674,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Base64URL",
+    "varstring_ns": 41.48333333333333,
+    "var_ns": 65.44666666666667,
+    "ratio": 1.5776617115307356,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Boolean",
+    "varstring_ns": 15.256666666666666,
+    "var_ns": 43.26666666666667,
+    "ratio": 2.8359187240550585,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "BtcAddr",
+    "varstring_ns": 50.06666666666666,
+    "var_ns": 75.75999999999999,
+    "ratio": 1.5131824234354194,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "CIDR",
+    "varstring_ns": 41.42,
+    "var_ns": 62.31333333333333,
+    "ratio": 1.504426203122485,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "CIDRv4",
+    "varstring_ns": 42.36666666666667,
+    "var_ns": 62.74333333333334,
+    "ratio": 1.4809598741148704,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "CIDRv6",
+    "varstring_ns": 174.13333333333335,
+    "var_ns": 210.73333333333335,
+    "ratio": 1.2101837672281777,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Contains",
+    "varstring_ns": 22.433333333333334,
+    "var_ns": 48.97,
+    "ratio": 2.1829123328380384,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ContainsAny",
+    "varstring_ns": 25.540000000000003,
+    "var_ns": 53.28333333333334,
+    "ratio": 2.0862699034194727,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ContainsRune",
+    "varstring_ns": 52.25,
+    "var_ns": 127.39999999999999,
+    "ratio": 2.438277511961722,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "CreditCard",
+    "varstring_ns": 40.88666666666666,
+    "var_ns": 69.18,
+    "ratio": 1.6919941301157675,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Cron",
+    "varstring_ns": 69.40000000000002,
+    "var_ns": 96.90333333333335,
+    "ratio": 1.3963016330451488,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "DNSRFC1035Label",
+    "varstring_ns": 188.26666666666665,
+    "var_ns": 220.16666666666666,
+    "ratio": 1.1694405099150142,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "DataURI",
+    "varstring_ns": 29.63,
+    "var_ns": 55.846666666666664,
+    "ratio": 1.8848014399820001,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Datetime",
+    "varstring_ns": 61.28333333333333,
+    "var_ns": 84.04333333333334,
+    "ratio": 1.3713897198803373,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Dir",
+    "varstring_ns": 648.1,
+    "var_ns": 750.7666666666668,
+    "ratio": 1.1584117677313173,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "DirPath",
+    "varstring_ns": 35.20666666666667,
+    "var_ns": 62.25,
+    "ratio": 1.7681310357886761,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "E164",
+    "varstring_ns": 20.44333333333333,
+    "var_ns": 46.71,
+    "ratio": 2.2848524376324804,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Email",
+    "varstring_ns": 80.62666666666667,
+    "var_ns": 112.26666666666667,
+    "ratio": 1.3924259963618324,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "EndsNotWith",
+    "varstring_ns": 18.52,
+    "var_ns": 43.406666666666666,
+    "ratio": 2.343772498200144,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "EndsWith",
+    "varstring_ns": 18.523333333333333,
+    "var_ns": 31.726666666666663,
+    "ratio": 1.7127946733849198,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Eq",
+    "varstring_ns": 17.136666666666667,
+    "var_ns": 41.97,
+    "ratio": 2.4491344096479284,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "EqIgnoreCase",
+    "varstring_ns": 20.259999999999998,
+    "var_ns": 47.38333333333333,
+    "ratio": 2.338762750904903,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "EthAddr",
+    "varstring_ns": 46.72,
+    "var_ns": 71.60666666666667,
+    "ratio": 1.5326769406392695,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Excludes",
+    "varstring_ns": 19.52,
+    "var_ns": 45.03333333333333,
+    "ratio": 2.307035519125683,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ExcludesAll",
+    "varstring_ns": 42.16,
+    "var_ns": 63.57666666666666,
+    "ratio": 1.5079854522454144,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ExcludesRune",
+    "varstring_ns": 28.27333333333333,
+    "var_ns": 49.836666666666666,
+    "ratio": 1.762673897665645,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "FQDN",
+    "varstring_ns": 38.70666666666667,
+    "var_ns": 61.343333333333334,
+    "ratio": 1.5848260420254907,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "File",
+    "varstring_ns": 647.0333333333333,
+    "var_ns": 748.4666666666667,
+    "ratio": 1.1567667817217042,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "FilePath",
+    "varstring_ns": 40.32333333333333,
+    "var_ns": 66.98666666666666,
+    "ratio": 1.6612383235512937,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Gt",
+    "varstring_ns": 41.85666666666667,
+    "var_ns": 115.03333333333335,
+    "ratio": 2.748267898383372,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Gte",
+    "varstring_ns": 42.78666666666666,
+    "var_ns": 116,
+    "ratio": 2.7111249610470556,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HSL",
+    "varstring_ns": 48.080000000000005,
+    "var_ns": 72.25333333333333,
+    "ratio": 1.5027731558513586,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HSLA",
+    "varstring_ns": 51.653333333333336,
+    "var_ns": 76.16333333333334,
+    "ratio": 1.4745095508518329,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HTML",
+    "varstring_ns": 24.99,
+    "var_ns": 53.73333333333333,
+    "ratio": 2.150193410697612,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HTMLEncoded",
+    "varstring_ns": 16.596666666666668,
+    "var_ns": 42.88666666666666,
+    "ratio": 2.58405302269532,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HTTPSURL",
+    "varstring_ns": 29.37,
+    "var_ns": 56.27666666666667,
+    "ratio": 1.9161275678129612,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HTTPURL",
+    "varstring_ns": 30.383333333333336,
+    "var_ns": 56.339999999999996,
+    "ratio": 1.8543060888645087,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HexColor",
+    "varstring_ns": 20.45,
+    "var_ns": 46.14333333333334,
+    "ratio": 2.25639771801141,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Hexadecimal",
+    "varstring_ns": 25.52,
+    "var_ns": 50.34666666666667,
+    "ratio": 1.9728317659352144,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Hostname",
+    "varstring_ns": 37.49,
+    "var_ns": 61.49333333333334,
+    "ratio": 1.6402596247888326,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "HostnamePort",
+    "varstring_ns": 38.74666666666667,
+    "var_ns": 66.37,
+    "ratio": 1.7129215416379904,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "IP",
+    "varstring_ns": 33.03333333333333,
+    "var_ns": 55.473333333333336,
+    "ratio": 1.6793138244197783,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "IPv4",
+    "varstring_ns": 33.37666666666667,
+    "var_ns": 56.36666666666667,
+    "ratio": 1.688804554079696,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "IPv6",
+    "varstring_ns": 15.986666666666665,
+    "var_ns": 41.54,
+    "ratio": 2.5984153461217683,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ISBN10",
+    "varstring_ns": 24.27,
+    "var_ns": 51.370000000000005,
+    "ratio": 2.1166048619695097,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ISBN13",
+    "varstring_ns": 61.52,
+    "var_ns": 136.76666666666668,
+    "ratio": 2.2231252709146077,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "ISSN",
+    "varstring_ns": 52.43333333333334,
+    "var_ns": 126.13333333333333,
+    "ratio": 2.4055944055944054,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "IsDefault",
+    "varstring_ns": 15.57,
+    "var_ns": 25.156666666666666,
+    "ratio": 1.6157139798758295,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "JSON",
+    "varstring_ns": 40.946666666666665,
+    "var_ns": 64.19666666666666,
+    "ratio": 1.5678117876913056,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Latitude",
+    "varstring_ns": 48.879999999999995,
+    "var_ns": 73.86999999999999,
+    "ratio": 1.511252045826514,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Len",
+    "varstring_ns": 16.78333333333333,
+    "var_ns": 42.85333333333333,
+    "ratio": 2.5533267130089374,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Longitude",
+    "varstring_ns": 53.553333333333335,
+    "var_ns": 76.79,
+    "ratio": 1.433897672102577,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Lowercase",
+    "varstring_ns": 19.006666666666664,
+    "var_ns": 45.076666666666675,
+    "ratio": 2.371623991581902,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Lt",
+    "varstring_ns": 13.51,
+    "var_ns": 39.48,
+    "ratio": 2.9222797927461137,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Lte",
+    "varstring_ns": 14.35,
+    "var_ns": 40.66,
+    "ratio": 2.833449477351916,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "LuhnChecksum",
+    "varstring_ns": 40.586666666666666,
+    "var_ns": 68.58,
+    "ratio": 1.6897174770039423,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "MAC",
+    "varstring_ns": 43.12,
+    "var_ns": 68.58333333333333,
+    "ratio": 1.5905225726654297,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Max",
+    "varstring_ns": 16.153333333333332,
+    "var_ns": 42.133333333333326,
+    "ratio": 2.608336772595955,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Min",
+    "varstring_ns": 18.57,
+    "var_ns": 44.71333333333333,
+    "ratio": 2.4078262430443367,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "MongoDB",
+    "varstring_ns": 217.1,
+    "var_ns": 250.36666666666667,
+    "ratio": 1.153231997543375,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "MultiRule",
+    "varstring_ns": 46.1,
+    "var_ns": 74.68,
+    "ratio": 1.6199566160520609,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Multibyte",
+    "varstring_ns": 27.790000000000003,
+    "var_ns": 54.15,
+    "ratio": 1.948542641237855,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Ne",
+    "varstring_ns": 17.556666666666665,
+    "var_ns": 42.48,
+    "ratio": 2.419593696601481,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "NeIgnoreCase",
+    "varstring_ns": 14.286666666666667,
+    "var_ns": 41.77,
+    "ratio": 2.9237050863275784,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Noneof",
+    "varstring_ns": 14.636666666666665,
+    "var_ns": 41.9,
+    "ratio": 2.862673650649055,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Noneofci",
+    "varstring_ns": 17.466666666666665,
+    "var_ns": 46.160000000000004,
+    "ratio": 2.6427480916030537,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Number",
+    "varstring_ns": 38.803333333333335,
+    "var_ns": 66.24666666666667,
+    "ratio": 1.707241645906709,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Numeric",
+    "varstring_ns": 38.916666666666664,
+    "var_ns": 66.78666666666666,
+    "ratio": 1.7161456102783725,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Oneof",
+    "varstring_ns": 17.48,
+    "var_ns": 44.74,
+    "ratio": 2.559496567505721,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Oneofci",
+    "varstring_ns": 17.486666666666668,
+    "var_ns": 44.20666666666667,
+    "ratio": 2.528021349599695,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Path",
+    "varstring_ns": 2.6956666666666664,
+    "var_ns": 3.651,
+    "ratio": 1.3543959441078275,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "PathParallel",
+    "varstring_ns": 1.3719999999999999,
+    "var_ns": 1.723,
+    "ratio": 1.2558309037900877,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Port",
+    "varstring_ns": 20.933333333333334,
+    "var_ns": 46.38666666666666,
+    "ratio": 2.2159235668789807,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "PrintASCII",
+    "varstring_ns": 30.106666666666666,
+    "var_ns": 54.12,
+    "ratio": 1.7976085031000886,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "RGB",
+    "varstring_ns": 47.04666666666666,
+    "var_ns": 71.96333333333334,
+    "ratio": 1.5296159841292336,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "RGBA",
+    "varstring_ns": 50.173333333333325,
+    "var_ns": 76.29333333333334,
+    "ratio": 1.5205952697315974,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Required",
+    "varstring_ns": 2.6553333333333335,
+    "var_ns": 22.80666666666667,
+    "ratio": 8.589003263871454,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Semver",
+    "varstring_ns": 59.22666666666667,
+    "var_ns": 85.71666666666668,
+    "ratio": 1.4472647456100858,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "StartsNotWith",
+    "varstring_ns": 17.383333333333336,
+    "var_ns": 44.803333333333335,
+    "ratio": 2.5773729626078614,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "StartsWith",
+    "varstring_ns": 17.026666666666667,
+    "var_ns": 44.76,
+    "ratio": 2.628817541111981,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Timezone",
+    "varstring_ns": 27.816666666666666,
+    "var_ns": 55.00333333333333,
+    "ratio": 1.9773517076093468,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "URI",
+    "varstring_ns": 28.896666666666665,
+    "var_ns": 53.98666666666666,
+    "ratio": 1.8682662360133808,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "URL",
+    "varstring_ns": 42.24333333333333,
+    "var_ns": 70.44666666666667,
+    "ratio": 1.6676398642783874,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "URLEncoded",
+    "varstring_ns": 29.233333333333334,
+    "var_ns": 54.053333333333335,
+    "ratio": 1.84903078677309,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "UUID",
+    "varstring_ns": 84.32000000000001,
+    "var_ns": 110.03333333333335,
+    "ratio": 1.3049493991144845,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "UUID3",
+    "varstring_ns": 42.223333333333336,
+    "var_ns": 115.86666666666667,
+    "ratio": 2.7441383121496803,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "UUID4",
+    "varstring_ns": 86.18333333333334,
+    "var_ns": 111.13333333333333,
+    "ratio": 1.2894991297621348,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "UUID5",
+    "varstring_ns": 86.43666666666667,
+    "var_ns": 110.5,
+    "ratio": 1.2783926574370446,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Unique",
+    "varstring_ns": 94.96999999999998,
+    "var_ns": 125.76666666666667,
+    "ratio": 1.3242778421255836,
+    "speedup": "VarString faster"
+  },
+  {
+    "rule": "Uppercase",
+    "varstring_ns": 18.97,
+    "var_ns": 44.09666666666667,
+    "ratio": 2.324547531189598,
+    "speedup": "VarString faster"
+  }
+]

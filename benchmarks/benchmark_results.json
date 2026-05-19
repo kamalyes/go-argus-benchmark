@@ -1,0 +1,2148 @@
+{
+  "argus": [
+    {
+      "name": "ComplexOrder_Invalid",
+      "ns_per_op": 1685.6666666666667,
+      "bytes_per_op": 2520,
+      "allocs_per_op": 16
+    },
+    {
+      "name": "ComplexOrder_Valid",
+      "ns_per_op": 1079.6666666666667,
+      "bytes_per_op": 208,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "EqField",
+      "ns_per_op": 129.53333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldArrayDiveFailure",
+      "ns_per_op": 343.6666666666667,
+      "bytes_per_op": 240,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldArrayDiveFailureParallel",
+      "ns_per_op": 205.16666666666666,
+      "bytes_per_op": 240,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldArrayDiveSuccess",
+      "ns_per_op": 112.06666666666668,
+      "bytes_per_op": 24,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "FieldArrayDiveSuccessParallel",
+      "ns_per_op": 59.38999999999999,
+      "bytes_per_op": 24,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "FieldFailure",
+      "ns_per_op": 88.95333333333333,
+      "bytes_per_op": 88,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "FieldFailureParallel",
+      "ns_per_op": 56.150000000000006,
+      "bytes_per_op": 88,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "FieldMapDiveFailure",
+      "ns_per_op": 546.6,
+      "bytes_per_op": 316,
+      "allocs_per_op": 10
+    },
+    {
+      "name": "FieldMapDiveFailureParallel",
+      "ns_per_op": 309.2666666666667,
+      "bytes_per_op": 316,
+      "allocs_per_op": 10
+    },
+    {
+      "name": "FieldMapDiveSuccess",
+      "ns_per_op": 406.90000000000003,
+      "bytes_per_op": 176,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldMapDiveSuccessParallel",
+      "ns_per_op": 227.9,
+      "bytes_per_op": 176,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldMapDiveWithKeysFailure",
+      "ns_per_op": 655.3333333333334,
+      "bytes_per_op": 492,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "FieldMapDiveWithKeysFailureParallel",
+      "ns_per_op": 396.9666666666667,
+      "bytes_per_op": 492,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "FieldMapDiveWithKeysSuccess",
+      "ns_per_op": 445.2666666666667,
+      "bytes_per_op": 176,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldMapDiveWithKeysSuccessParallel",
+      "ns_per_op": 246.9666666666667,
+      "bytes_per_op": 176,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "FieldOrTagFailure",
+      "ns_per_op": 110.33333333333333,
+      "bytes_per_op": 88,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "FieldOrTagFailureParallel",
+      "ns_per_op": 65.08666666666666,
+      "bytes_per_op": 88,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "FieldOrTagSuccess",
+      "ns_per_op": 70.40666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldOrTagSuccessParallel",
+      "ns_per_op": 28.180000000000003,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldSuccess",
+      "ns_per_op": 18.863333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldSuccessParallel",
+      "ns_per_op": 8.005333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "NestedWorkspace_Invalid",
+      "ns_per_op": 681.3333333333334,
+      "bytes_per_op": 824,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "NestedWorkspace_Valid",
+      "ns_per_op": 529.1333333333333,
+      "bytes_per_op": 96,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Noneof",
+      "ns_per_op": 103.8,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "NoneofParallel",
+      "ns_per_op": 54.589999999999996,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "Oneof",
+      "ns_per_op": 110.53333333333335,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "OneofParallel",
+      "ns_per_op": 51.88333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "ReflectValueOfInterface",
+      "ns_per_op": 0.33969999999999995,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "ReflectValueOfString",
+      "ns_per_op": 0.3417666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "RequiredIf",
+      "ns_per_op": 187.4666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "SimpleUser_Invalid",
+      "ns_per_op": 434.59999999999997,
+      "bytes_per_op": 552,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "SimpleUser_Valid",
+      "ns_per_op": 256.7,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "StructComplexFailure",
+      "ns_per_op": 1440.3333333333333,
+      "bytes_per_op": 2136,
+      "allocs_per_op": 14
+    },
+    {
+      "name": "StructComplexFailureParallel",
+      "ns_per_op": 1126.6666666666667,
+      "bytes_per_op": 2136,
+      "allocs_per_op": 14
+    },
+    {
+      "name": "StructComplexSuccess",
+      "ns_per_op": 437.09999999999997,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "StructComplexSuccessParallel",
+      "ns_per_op": 221.33333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "StructSimpleCrossFieldFailure",
+      "ns_per_op": 309.8666666666666,
+      "bytes_per_op": 248,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "StructSimpleCrossFieldFailureParallel",
+      "ns_per_op": 203.5666666666667,
+      "bytes_per_op": 248,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "StructSimpleCrossFieldSuccess",
+      "ns_per_op": 195.66666666666666,
+      "bytes_per_op": 48,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "StructSimpleCrossFieldSuccessParallel",
+      "ns_per_op": 108.5,
+      "bytes_per_op": 48,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldFailure",
+      "ns_per_op": 506.0333333333333,
+      "bytes_per_op": 280,
+      "allocs_per_op": 6
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldFailureParallel",
+      "ns_per_op": 307.2,
+      "bytes_per_op": 280,
+      "allocs_per_op": 6
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldSuccess",
+      "ns_per_op": 380.3333333333333,
+      "bytes_per_op": 80,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldSuccessParallel",
+      "ns_per_op": 214.19999999999996,
+      "bytes_per_op": 80,
+      "allocs_per_op": 3
+    },
+    {
+      "name": "StructSimpleFailure",
+      "ns_per_op": 296.4666666666667,
+      "bytes_per_op": 376,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "StructSimpleFailureParallel",
+      "ns_per_op": 219.4,
+      "bytes_per_op": 376,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "StructSimpleSuccess",
+      "ns_per_op": 126.93333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "StructSimpleSuccessParallel",
+      "ns_per_op": 81.55333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarPath",
+      "ns_per_op": 3.651,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarPathParallel",
+      "ns_per_op": 1.723,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarStringPath",
+      "ns_per_op": 2.6956666666666664,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarStringPathParallel",
+      "ns_per_op": 1.3719999999999999,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ASCII",
+      "ns_per_op": 30.849999999999998,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Alpha",
+      "ns_per_op": 26.39333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_AlphaSpace",
+      "ns_per_op": 28.176666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_AlphaUnicode",
+      "ns_per_op": 25.01,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Alphanum",
+      "ns_per_op": 27.23,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_AlphanumSpace",
+      "ns_per_op": 29.459999999999997,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_AlphanumUnicode",
+      "ns_per_op": 39.28,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_BCP47",
+      "ns_per_op": 24.74333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_BIC",
+      "ns_per_op": 25.923333333333332,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Base32",
+      "ns_per_op": 83.07666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_Base64",
+      "ns_per_op": 43.84666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Base64RawURL",
+      "ns_per_op": 39.21,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Base64URL",
+      "ns_per_op": 41.48333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Boolean",
+      "ns_per_op": 15.256666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_BtcAddr",
+      "ns_per_op": 50.06666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_CIDR",
+      "ns_per_op": 41.42,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_CIDRv4",
+      "ns_per_op": 42.36666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_CIDRv6",
+      "ns_per_op": 174.13333333333335,
+      "bytes_per_op": 96,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "VarString_Contains",
+      "ns_per_op": 22.433333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ContainsAny",
+      "ns_per_op": 25.540000000000003,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ContainsRune",
+      "ns_per_op": 52.25,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_CreditCard",
+      "ns_per_op": 40.88666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Cron",
+      "ns_per_op": 69.40000000000002,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_DNSRFC1035Label",
+      "ns_per_op": 188.26666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_DataURI",
+      "ns_per_op": 29.63,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Datetime",
+      "ns_per_op": 61.28333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Dir",
+      "ns_per_op": 648.1,
+      "bytes_per_op": 320,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "VarString_DirPath",
+      "ns_per_op": 35.20666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_E164",
+      "ns_per_op": 20.44333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Email",
+      "ns_per_op": 80.62666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_EndsNotWith",
+      "ns_per_op": 18.52,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_EndsWith",
+      "ns_per_op": 18.523333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Eq",
+      "ns_per_op": 17.136666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_EqIgnoreCase",
+      "ns_per_op": 20.259999999999998,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_EthAddr",
+      "ns_per_op": 46.72,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Excludes",
+      "ns_per_op": 19.52,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ExcludesAll",
+      "ns_per_op": 42.16,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ExcludesRune",
+      "ns_per_op": 28.27333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_FQDN",
+      "ns_per_op": 38.70666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_File",
+      "ns_per_op": 647.0333333333333,
+      "bytes_per_op": 320,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "VarString_FilePath",
+      "ns_per_op": 40.32333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Gt",
+      "ns_per_op": 41.85666666666667,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_Gte",
+      "ns_per_op": 42.78666666666666,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_HSL",
+      "ns_per_op": 48.080000000000005,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HSLA",
+      "ns_per_op": 51.653333333333336,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HTML",
+      "ns_per_op": 24.99,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HTMLEncoded",
+      "ns_per_op": 16.596666666666668,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HTTPSURL",
+      "ns_per_op": 29.37,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HTTPURL",
+      "ns_per_op": 30.383333333333336,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HexColor",
+      "ns_per_op": 20.45,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Hexadecimal",
+      "ns_per_op": 25.52,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Hostname",
+      "ns_per_op": 37.49,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_HostnamePort",
+      "ns_per_op": 38.74666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_IP",
+      "ns_per_op": 33.03333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_IPv4",
+      "ns_per_op": 33.37666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_IPv6",
+      "ns_per_op": 15.986666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ISBN10",
+      "ns_per_op": 24.27,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_ISBN13",
+      "ns_per_op": 61.52,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_ISSN",
+      "ns_per_op": 52.43333333333334,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_IsDefault",
+      "ns_per_op": 15.57,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_JSON",
+      "ns_per_op": 40.946666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Latitude",
+      "ns_per_op": 48.879999999999995,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Len",
+      "ns_per_op": 16.78333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Longitude",
+      "ns_per_op": 53.553333333333335,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Lowercase",
+      "ns_per_op": 19.006666666666664,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Lt",
+      "ns_per_op": 13.51,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Lte",
+      "ns_per_op": 14.35,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_LuhnChecksum",
+      "ns_per_op": 40.586666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_MAC",
+      "ns_per_op": 43.12,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Max",
+      "ns_per_op": 16.153333333333332,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Min",
+      "ns_per_op": 18.57,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_MongoDB",
+      "ns_per_op": 217.1,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_MultiRule",
+      "ns_per_op": 46.1,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Multibyte",
+      "ns_per_op": 27.790000000000003,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Ne",
+      "ns_per_op": 17.556666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_NeIgnoreCase",
+      "ns_per_op": 14.286666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Noneof",
+      "ns_per_op": 14.636666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Noneofci",
+      "ns_per_op": 17.466666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Number",
+      "ns_per_op": 38.803333333333335,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Numeric",
+      "ns_per_op": 38.916666666666664,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Oneof",
+      "ns_per_op": 17.48,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Oneofci",
+      "ns_per_op": 17.486666666666668,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Port",
+      "ns_per_op": 20.933333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_PrintASCII",
+      "ns_per_op": 30.106666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_RGB",
+      "ns_per_op": 47.04666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_RGBA",
+      "ns_per_op": 50.173333333333325,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Required",
+      "ns_per_op": 2.6553333333333335,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Semver",
+      "ns_per_op": 59.22666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_StartsNotWith",
+      "ns_per_op": 17.383333333333336,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_StartsWith",
+      "ns_per_op": 17.026666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Timezone",
+      "ns_per_op": 27.816666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_URI",
+      "ns_per_op": 28.896666666666665,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_URL",
+      "ns_per_op": 42.24333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_URLEncoded",
+      "ns_per_op": 29.233333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_UUID",
+      "ns_per_op": 84.32000000000001,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_UUID3",
+      "ns_per_op": 42.223333333333336,
+      "bytes_per_op": 48,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "VarString_UUID4",
+      "ns_per_op": 86.18333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_UUID5",
+      "ns_per_op": 86.43666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Unique",
+      "ns_per_op": 94.96999999999998,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarString_Uppercase",
+      "ns_per_op": 18.97,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "Var_ASCII",
+      "ns_per_op": 56.74,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Alpha",
+      "ns_per_op": 51.52,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_AlphaSpace",
+      "ns_per_op": 54.59,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_AlphaUnicode",
+      "ns_per_op": 54.346666666666664,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Alphanum",
+      "ns_per_op": 53.903333333333336,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_AlphanumSpace",
+      "ns_per_op": 56.68,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_AlphanumUnicode",
+      "ns_per_op": 66.28666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_BCP47",
+      "ns_per_op": 48.35666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_BIC",
+      "ns_per_op": 51.26333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Base32",
+      "ns_per_op": 116.06666666666666,
+      "bytes_per_op": 32,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "Var_Base64",
+      "ns_per_op": 69.31333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Base64RawURL",
+      "ns_per_op": 64.61,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Base64URL",
+      "ns_per_op": 65.44666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Boolean",
+      "ns_per_op": 43.26666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_BtcAddr",
+      "ns_per_op": 75.75999999999999,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_CIDR",
+      "ns_per_op": 62.31333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_CIDRv4",
+      "ns_per_op": 62.74333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_CIDRv6",
+      "ns_per_op": 210.73333333333335,
+      "bytes_per_op": 112,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "Var_Contains",
+      "ns_per_op": 48.97,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ContainsAny",
+      "ns_per_op": 53.28333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ContainsRune",
+      "ns_per_op": 127.39999999999999,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_CreditCard",
+      "ns_per_op": 69.18,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Cron",
+      "ns_per_op": 96.90333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_DNSRFC1035Label",
+      "ns_per_op": 220.16666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_DataURI",
+      "ns_per_op": 55.846666666666664,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Datetime",
+      "ns_per_op": 84.04333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Dir",
+      "ns_per_op": 750.7666666666668,
+      "bytes_per_op": 376,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "Var_DirPath",
+      "ns_per_op": 62.25,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_E164",
+      "ns_per_op": 46.71,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Email",
+      "ns_per_op": 112.26666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_EndsNotWith",
+      "ns_per_op": 43.406666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_EndsWith",
+      "ns_per_op": 31.726666666666663,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Eq",
+      "ns_per_op": 41.97,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_EqIgnoreCase",
+      "ns_per_op": 47.38333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_EthAddr",
+      "ns_per_op": 71.60666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Excludes",
+      "ns_per_op": 45.03333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ExcludesAll",
+      "ns_per_op": 63.57666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ExcludesRune",
+      "ns_per_op": 49.836666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_FQDN",
+      "ns_per_op": 61.343333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_File",
+      "ns_per_op": 748.4666666666667,
+      "bytes_per_op": 376,
+      "allocs_per_op": 7
+    },
+    {
+      "name": "Var_FilePath",
+      "ns_per_op": 66.98666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Gt",
+      "ns_per_op": 115.03333333333335,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_Gte",
+      "ns_per_op": 116,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_HSL",
+      "ns_per_op": 72.25333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HSLA",
+      "ns_per_op": 76.16333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTML",
+      "ns_per_op": 53.73333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTMLEncoded",
+      "ns_per_op": 42.88666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTTPSURL",
+      "ns_per_op": 56.27666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTTPURL",
+      "ns_per_op": 56.339999999999996,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HexColor",
+      "ns_per_op": 46.14333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Hexadecimal",
+      "ns_per_op": 50.34666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Hostname",
+      "ns_per_op": 61.49333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HostnamePort",
+      "ns_per_op": 66.37,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IP",
+      "ns_per_op": 55.473333333333336,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IPv4",
+      "ns_per_op": 56.36666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IPv6",
+      "ns_per_op": 41.54,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ISBN10",
+      "ns_per_op": 51.370000000000005,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_ISBN13",
+      "ns_per_op": 136.76666666666668,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_ISSN",
+      "ns_per_op": 126.13333333333333,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_IsDefault",
+      "ns_per_op": 25.156666666666666,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "Var_JSON",
+      "ns_per_op": 64.19666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Latitude",
+      "ns_per_op": 73.86999999999999,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Len",
+      "ns_per_op": 42.85333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Longitude",
+      "ns_per_op": 76.79,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lowercase",
+      "ns_per_op": 45.076666666666675,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lt",
+      "ns_per_op": 39.48,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lte",
+      "ns_per_op": 40.66,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_LuhnChecksum",
+      "ns_per_op": 68.58,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_MAC",
+      "ns_per_op": 68.58333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Max",
+      "ns_per_op": 42.133333333333326,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Min",
+      "ns_per_op": 44.71333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_MongoDB",
+      "ns_per_op": 250.36666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_MultiRule",
+      "ns_per_op": 74.68,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Multibyte",
+      "ns_per_op": 54.15,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Ne",
+      "ns_per_op": 42.48,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_NeIgnoreCase",
+      "ns_per_op": 41.77,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Noneof",
+      "ns_per_op": 41.9,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Noneofci",
+      "ns_per_op": 46.160000000000004,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Number",
+      "ns_per_op": 66.24666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Numeric",
+      "ns_per_op": 66.78666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Oneof",
+      "ns_per_op": 44.74,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Oneofci",
+      "ns_per_op": 44.20666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Port",
+      "ns_per_op": 46.38666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_PrintASCII",
+      "ns_per_op": 54.12,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_RGB",
+      "ns_per_op": 71.96333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_RGBA",
+      "ns_per_op": 76.29333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Required",
+      "ns_per_op": 22.80666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Semver",
+      "ns_per_op": 85.71666666666668,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_StartsNotWith",
+      "ns_per_op": 44.803333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_StartsWith",
+      "ns_per_op": 44.76,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Timezone",
+      "ns_per_op": 55.00333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_URI",
+      "ns_per_op": 53.98666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_URL",
+      "ns_per_op": 70.44666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_URLEncoded",
+      "ns_per_op": 54.053333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID",
+      "ns_per_op": 110.03333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID3",
+      "ns_per_op": 115.86666666666667,
+      "bytes_per_op": 104,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_UUID4",
+      "ns_per_op": 111.13333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID5",
+      "ns_per_op": 110.5,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Unique",
+      "ns_per_op": 125.76666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Uppercase",
+      "ns_per_op": 44.09666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    }
+  ],
+  "playground": [
+    {
+      "name": "ComplexOrder_Invalid",
+      "ns_per_op": 3131,
+      "bytes_per_op": 3081,
+      "allocs_per_op": 41
+    },
+    {
+      "name": "ComplexOrder_Valid",
+      "ns_per_op": 5225.666666666667,
+      "bytes_per_op": 581,
+      "allocs_per_op": 19
+    },
+    {
+      "name": "EqField",
+      "ns_per_op": 229.4333333333333,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldArrayDiveFailure",
+      "ns_per_op": 551.8333333333333,
+      "bytes_per_op": 348,
+      "allocs_per_op": 13
+    },
+    {
+      "name": "FieldArrayDiveFailureParallel",
+      "ns_per_op": 319.3333333333333,
+      "bytes_per_op": 348,
+      "allocs_per_op": 13
+    },
+    {
+      "name": "FieldArrayDiveSuccess",
+      "ns_per_op": 379.1333333333334,
+      "bytes_per_op": 145,
+      "allocs_per_op": 8
+    },
+    {
+      "name": "FieldArrayDiveSuccessParallel",
+      "ns_per_op": 205.4,
+      "bytes_per_op": 145,
+      "allocs_per_op": 8
+    },
+    {
+      "name": "FieldFailure",
+      "ns_per_op": 252.63333333333333,
+      "bytes_per_op": 216,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "FieldFailureParallel",
+      "ns_per_op": 162.4,
+      "bytes_per_op": 216,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "FieldMapDiveFailure",
+      "ns_per_op": 855.9666666666667,
+      "bytes_per_op": 424,
+      "allocs_per_op": 15
+    },
+    {
+      "name": "FieldMapDiveFailureParallel",
+      "ns_per_op": 488.06666666666666,
+      "bytes_per_op": 424,
+      "allocs_per_op": 15
+    },
+    {
+      "name": "FieldMapDiveSuccess",
+      "ns_per_op": 1038.3333333333333,
+      "bytes_per_op": 360,
+      "allocs_per_op": 17
+    },
+    {
+      "name": "FieldMapDiveSuccessParallel",
+      "ns_per_op": 565.0666666666667,
+      "bytes_per_op": 360,
+      "allocs_per_op": 17
+    },
+    {
+      "name": "FieldMapDiveWithKeysFailure",
+      "ns_per_op": 1059.6666666666667,
+      "bytes_per_op": 601,
+      "allocs_per_op": 18
+    },
+    {
+      "name": "FieldMapDiveWithKeysFailureParallel",
+      "ns_per_op": 622.9666666666667,
+      "bytes_per_op": 601,
+      "allocs_per_op": 18
+    },
+    {
+      "name": "FieldMapDiveWithKeysSuccess",
+      "ns_per_op": 1130.6666666666667,
+      "bytes_per_op": 360,
+      "allocs_per_op": 17
+    },
+    {
+      "name": "FieldMapDiveWithKeysSuccessParallel",
+      "ns_per_op": 607.8333333333334,
+      "bytes_per_op": 360,
+      "allocs_per_op": 17
+    },
+    {
+      "name": "FieldOrTagFailure",
+      "ns_per_op": 234.9,
+      "bytes_per_op": 200,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "FieldOrTagFailureParallel",
+      "ns_per_op": 156.96666666666667,
+      "bytes_per_op": 200,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "FieldOrTagSuccess",
+      "ns_per_op": 401.4666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldOrTagSuccessParallel",
+      "ns_per_op": 209.33333333333334,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "FieldSuccess",
+      "ns_per_op": 99.57333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "FieldSuccessParallel",
+      "ns_per_op": 56.449999999999996,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "NestedWorkspace_Invalid",
+      "ns_per_op": 3144,
+      "bytes_per_op": 2793,
+      "allocs_per_op": 49
+    },
+    {
+      "name": "NestedWorkspace_Valid",
+      "ns_per_op": 4778.666666666667,
+      "bytes_per_op": 978,
+      "allocs_per_op": 33
+    },
+    {
+      "name": "Oneof",
+      "ns_per_op": 132.86666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "OneofParallel",
+      "ns_per_op": 89.33,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "RequiredIf",
+      "ns_per_op": 308.40000000000003,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "SimpleUser_Invalid",
+      "ns_per_op": 1105,
+      "bytes_per_op": 744,
+      "allocs_per_op": 18
+    },
+    {
+      "name": "SimpleUser_Valid",
+      "ns_per_op": 1233.6666666666667,
+      "bytes_per_op": 96,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "StructComplexFailure",
+      "ns_per_op": 3054,
+      "bytes_per_op": 2968,
+      "allocs_per_op": 56
+    },
+    {
+      "name": "StructComplexFailureParallel",
+      "ns_per_op": 2124,
+      "bytes_per_op": 2968,
+      "allocs_per_op": 56
+    },
+    {
+      "name": "StructComplexSuccess",
+      "ns_per_op": 1073.6666666666667,
+      "bytes_per_op": 224,
+      "allocs_per_op": 14
+    },
+    {
+      "name": "StructComplexSuccessParallel",
+      "ns_per_op": 611.4666666666667,
+      "bytes_per_op": 224,
+      "allocs_per_op": 14
+    },
+    {
+      "name": "StructSimpleCrossFieldFailure",
+      "ns_per_op": 665.4,
+      "bytes_per_op": 384,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "StructSimpleCrossFieldFailureParallel",
+      "ns_per_op": 379.8666666666666,
+      "bytes_per_op": 384,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "StructSimpleCrossFieldSuccess",
+      "ns_per_op": 465.43333333333334,
+      "bytes_per_op": 168,
+      "allocs_per_op": 6
+    },
+    {
+      "name": "StructSimpleCrossFieldSuccessParallel",
+      "ns_per_op": 247.63333333333333,
+      "bytes_per_op": 168,
+      "allocs_per_op": 6
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldFailure",
+      "ns_per_op": 927.8000000000001,
+      "bytes_per_op": 440,
+      "allocs_per_op": 13
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldFailureParallel",
+      "ns_per_op": 506.1000000000001,
+      "bytes_per_op": 440,
+      "allocs_per_op": 13
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldSuccess",
+      "ns_per_op": 712.1333333333333,
+      "bytes_per_op": 200,
+      "allocs_per_op": 8
+    },
+    {
+      "name": "StructSimpleCrossStructCrossFieldSuccessParallel",
+      "ns_per_op": 375.26666666666665,
+      "bytes_per_op": 200,
+      "allocs_per_op": 8
+    },
+    {
+      "name": "StructSimpleFailure",
+      "ns_per_op": 549.4,
+      "bytes_per_op": 440,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "StructSimpleFailureParallel",
+      "ns_per_op": 346.36666666666673,
+      "bytes_per_op": 440,
+      "allocs_per_op": 11
+    },
+    {
+      "name": "StructSimpleSuccess",
+      "ns_per_op": 267,
+      "bytes_per_op": 24,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "StructSimpleSuccessParallel",
+      "ns_per_op": 139.43333333333334,
+      "bytes_per_op": 24,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "VarPath",
+      "ns_per_op": 53.05666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "VarPathParallel",
+      "ns_per_op": 26.63666666666667,
+      "bytes_per_op": 0,
+      "allocs_per_op": 0
+    },
+    {
+      "name": "Var_ASCII",
+      "ns_per_op": 307.56666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Alpha",
+      "ns_per_op": 253.1,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Alphanum",
+      "ns_per_op": 234.76666666666665,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Base64",
+      "ns_per_op": 265.5,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Base64URL",
+      "ns_per_op": 258.2,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Boolean",
+      "ns_per_op": 73.47,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_CIDR",
+      "ns_per_op": 209.36666666666667,
+      "bytes_per_op": 88,
+      "allocs_per_op": 5
+    },
+    {
+      "name": "Var_Contains",
+      "ns_per_op": 78.86333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Datetime",
+      "ns_per_op": 426.6666666666667,
+      "bytes_per_op": 400,
+      "allocs_per_op": 9
+    },
+    {
+      "name": "Var_E164",
+      "ns_per_op": 220,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Email",
+      "ns_per_op": 953.3000000000001,
+      "bytes_per_op": 104,
+      "allocs_per_op": 6
+    },
+    {
+      "name": "Var_EndsWith",
+      "ns_per_op": 76.37333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Eq",
+      "ns_per_op": 72.26,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_FQDN",
+      "ns_per_op": 314.1666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Gt",
+      "ns_per_op": 213.9333333333333,
+      "bytes_per_op": 200,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_Gte",
+      "ns_per_op": 214.79999999999998,
+      "bytes_per_op": 200,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_HSL",
+      "ns_per_op": 354.7666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HSLA",
+      "ns_per_op": 425.26666666666665,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTML",
+      "ns_per_op": 186,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HTMLEncoded",
+      "ns_per_op": 166.73333333333332,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HexColor",
+      "ns_per_op": 257.03333333333336,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Hexadecimal",
+      "ns_per_op": 250.76666666666665,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Hostname",
+      "ns_per_op": 356.8333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_HostnamePort",
+      "ns_per_op": 348.9666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IP",
+      "ns_per_op": 92.29666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IPv4",
+      "ns_per_op": 102.10000000000001,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_IPv6",
+      "ns_per_op": 99.30333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_JSON",
+      "ns_per_op": 147,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Latitude",
+      "ns_per_op": 236.23333333333335,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Len",
+      "ns_per_op": 94.92,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Longitude",
+      "ns_per_op": 256.93333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lowercase",
+      "ns_per_op": 78.92666666666666,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lt",
+      "ns_per_op": 82.47000000000001,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Lte",
+      "ns_per_op": 80.97000000000001,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_MAC",
+      "ns_per_op": 139.83333333333334,
+      "bytes_per_op": 24,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "Var_Max",
+      "ns_per_op": 88.96999999999998,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Min",
+      "ns_per_op": 90.54333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_MultiRule",
+      "ns_per_op": 133.29999999999998,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Multibyte",
+      "ns_per_op": 125,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Ne",
+      "ns_per_op": 73.13333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Number",
+      "ns_per_op": 184.5333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Oneof",
+      "ns_per_op": 93.22666666666667,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Oneofci",
+      "ns_per_op": 97.98,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_RGB",
+      "ns_per_op": 407.3,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_RGBA",
+      "ns_per_op": 500.4333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Required",
+      "ns_per_op": 72.72333333333334,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_StartsWith",
+      "ns_per_op": 75.46999999999998,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_URI",
+      "ns_per_op": 177.16666666666666,
+      "bytes_per_op": 160,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "Var_URL",
+      "ns_per_op": 378.2,
+      "bytes_per_op": 160,
+      "allocs_per_op": 2
+    },
+    {
+      "name": "Var_URLEncoded",
+      "ns_per_op": 369.76666666666665,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID",
+      "ns_per_op": 346.3999999999999,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID3",
+      "ns_per_op": 339.8,
+      "bytes_per_op": 200,
+      "allocs_per_op": 4
+    },
+    {
+      "name": "Var_UUID4",
+      "ns_per_op": 350.59999999999997,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_UUID5",
+      "ns_per_op": 344.7333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    },
+    {
+      "name": "Var_Uppercase",
+      "ns_per_op": 80.27333333333333,
+      "bytes_per_op": 16,
+      "allocs_per_op": 1
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+[
+  {
+    "rule": "ASCII",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Alpha",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "AlphaSpace",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "AlphaUnicode",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Alphanum",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "AlphanumSpace",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "AlphanumUnicode",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "BCP47",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "BIC",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Base32",
+    "varstring_allocs": 1,
+    "var_allocs": 2,
+    "varstring_bytes": 16,
+    "var_bytes": 32
+  },
+  {
+    "rule": "Base64",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Base64RawURL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Base64URL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Boolean",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "BtcAddr",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "CIDR",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "CIDRv4",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "CIDRv6",
+    "varstring_allocs": 4,
+    "var_allocs": 5,
+    "varstring_bytes": 96,
+    "var_bytes": 112
+  },
+  {
+    "rule": "Contains",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ContainsAny",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ContainsRune",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "CreditCard",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Cron",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "DNSRFC1035Label",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "DataURI",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Datetime",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Dir",
+    "varstring_allocs": 4,
+    "var_allocs": 7,
+    "varstring_bytes": 320,
+    "var_bytes": 376
+  },
+  {
+    "rule": "DirPath",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "E164",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Email",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "EndsNotWith",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "EndsWith",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Eq",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "EqIgnoreCase",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "EthAddr",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Excludes",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ExcludesAll",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ExcludesRune",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "FQDN",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "File",
+    "varstring_allocs": 4,
+    "var_allocs": 7,
+    "varstring_bytes": 320,
+    "var_bytes": 376
+  },
+  {
+    "rule": "FilePath",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Gt",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "Gte",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "HSL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HSLA",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HTML",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HTMLEncoded",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HTTPSURL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HTTPURL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HexColor",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Hexadecimal",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Hostname",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "HostnamePort",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "IP",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "IPv4",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "IPv6",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ISBN10",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "ISBN13",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "ISSN",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "IsDefault",
+    "varstring_allocs": 0,
+    "var_allocs": 0,
+    "varstring_bytes": 0,
+    "var_bytes": 0
+  },
+  {
+    "rule": "JSON",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Latitude",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Len",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Longitude",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Lowercase",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Lt",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Lte",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "LuhnChecksum",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "MAC",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Max",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Min",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "MongoDB",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "MultiRule",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Multibyte",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Ne",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "NeIgnoreCase",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Noneof",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Noneofci",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Number",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Numeric",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Oneof",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Oneofci",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Path",
+    "varstring_allocs": 0,
+    "var_allocs": 0,
+    "varstring_bytes": 0,
+    "var_bytes": 0
+  },
+  {
+    "rule": "PathParallel",
+    "varstring_allocs": 0,
+    "var_allocs": 0,
+    "varstring_bytes": 0,
+    "var_bytes": 0
+  },
+  {
+    "rule": "Port",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "PrintASCII",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "RGB",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "RGBA",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Required",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Semver",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "StartsNotWith",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "StartsWith",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Timezone",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "URI",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "URL",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "URLEncoded",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "UUID",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "UUID3",
+    "varstring_allocs": 1,
+    "var_allocs": 4,
+    "varstring_bytes": 48,
+    "var_bytes": 104
+  },
+  {
+    "rule": "UUID4",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "UUID5",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Unique",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  },
+  {
+    "rule": "Uppercase",
+    "varstring_allocs": 0,
+    "var_allocs": 1,
+    "varstring_bytes": 0,
+    "var_bytes": 16
+  }
+]
