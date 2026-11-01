@@ -11,3 +11,10 @@ cpu.out
 # Benchmark output (temp files)
 benchmark_output.txt
 benchmark_full.txt
+
+# go.work 让本地开发指向同级源码目录，不进版本库：
+# go.mod 里 committed 的本地路径 replace 会让 CI 上所有 go 命令找不到那个路径而失败
+# [EN] go.work points local development at the sibling source tree and stays out of git:
+# a committed local-path replace in go.mod breaks every go command on a runner
+go.work
+go.work.sum

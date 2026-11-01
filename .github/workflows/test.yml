@@ -36,12 +36,6 @@ jobs:
       # [EN] This module's go.mod replaces the upstream with a sibling directory, which CI does
       # not have, so the upstream is cloned into place first. The replace is deliberate -- a
       # benchmark harness is meant to measure the upstream working tree -- so it stays
-      setup-script: |
-        set -euo pipefail
-        if [ ! -d "../go-argus" ]; then
-          git clone --depth 1 "https://github.com/kamalyes/go-argus.git" "../go-argus"
-          echo "已克隆 go-argus 到 ../go-argus（$(git -C "../go-argus" rev-parse --short HEAD)）"
-        fi
     secrets:
       # 显式映射而非 secrets: inherit —— inherit 跨账号调用时拿不到值
       # [EN] Mapped explicitly rather than with secrets: inherit, which yields nothing across accounts

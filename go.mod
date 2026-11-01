@@ -2,13 +2,11 @@ module github.com/kamalyes/go-argus-benchmark
 
 go 1.25.0
 
-replace github.com/kamalyes/go-argus => ../go-argus
-
 // replace github.com/go-playground/validator/v10 => ../validator
 
 require (
 	github.com/go-playground/validator/v10 v10.30.2
-	github.com/kamalyes/go-argus v0.5.0
+	github.com/kamalyes/go-argus v0.5.1
 )
 
 require (
