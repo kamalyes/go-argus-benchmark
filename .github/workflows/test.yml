@@ -26,16 +26,12 @@ on:
 jobs:
   test:
     uses: kamalyes/deploy-pipeline/.github/workflows/go-library-test.yml@master
-    with:
-      # 本仓库的 go.mod 有一条指向兄弟目录的 replace：
-      #   replace github.com/kamalyes/go-argus => ../go-argus
-      # CI 只 checkout 本仓库，兄弟目录不存在，go mod download 会直接报
-      #   reading ../go-argus/go.mod: no such file or directory
-      # 所以先把上游克隆到那个位置。基准仓库要对着上游的工作树跑才有意义，
-      # 这条 replace 是故意的，不该为了让 CI 过而删掉它
-      # [EN] This module's go.mod replaces the upstream with a sibling directory, which CI does
-      # not have, so the upstream is cloned into place first. The replace is deliberate -- a
-      # benchmark harness is meant to measure the upstream working tree -- so it stays
+    # 没有 with：本仓库不需要给共用流水线传任何输入
+    # go.mod 不再有指向兄弟目录的 replace，CI 按线上版本解析依赖即可，
+    # 不必再先把上游克隆到 ../ 位置
+    # [EN] No with block: this repository passes no inputs to the shared pipeline
+    # go.mod no longer replaces the upstream with a sibling directory, so CI resolves
+    # the dependency from the proxy and does not need the upstream cloned into place
     secrets:
       # 显式映射而非 secrets: inherit —— inherit 跨账号调用时拿不到值
       # [EN] Mapped explicitly rather than with secrets: inherit, which yields nothing across accounts
