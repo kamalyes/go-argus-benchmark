@@ -2,1525 +2,1525 @@
   "argus": [
     {
       "name": "ComplexOrder_Invalid",
-      "ns_per_op": 1477.6666666666667,
+      "ns_per_op": 680.6333333333333,
       "bytes_per_op": 1688,
       "allocs_per_op": 16
     },
     {
       "name": "ComplexOrder_Valid",
-      "ns_per_op": 955.1,
+      "ns_per_op": 459.1666666666667,
       "bytes_per_op": 208,
       "allocs_per_op": 1
     },
     {
       "name": "EqField",
-      "ns_per_op": 109.09999999999998,
+      "ns_per_op": 51.76,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldArrayDiveFailure",
-      "ns_per_op": 361.8666666666666,
+      "ns_per_op": 157.4,
       "bytes_per_op": 176,
       "allocs_per_op": 7
     },
     {
       "name": "FieldArrayDiveFailureParallel",
-      "ns_per_op": 199.0666666666667,
+      "ns_per_op": 64.89999999999999,
       "bytes_per_op": 176,
       "allocs_per_op": 7
     },
     {
       "name": "FieldArrayDiveSuccess",
-      "ns_per_op": 127.3,
+      "ns_per_op": 55.06666666666666,
       "bytes_per_op": 24,
       "allocs_per_op": 1
     },
     {
       "name": "FieldArrayDiveSuccessParallel",
-      "ns_per_op": 62.11000000000001,
+      "ns_per_op": 16.036666666666665,
       "bytes_per_op": 24,
       "allocs_per_op": 1
     },
     {
       "name": "FieldFailure",
-      "ns_per_op": 106,
+      "ns_per_op": 49.50666666666667,
       "bytes_per_op": 88,
       "allocs_per_op": 3
     },
     {
       "name": "FieldFailureParallel",
-      "ns_per_op": 66.63666666666667,
+      "ns_per_op": 25.566666666666663,
       "bytes_per_op": 88,
       "allocs_per_op": 3
     },
     {
       "name": "FieldMapDiveFailure",
-      "ns_per_op": 327.5,
+      "ns_per_op": 158.03333333333333,
       "bytes_per_op": 140,
       "allocs_per_op": 5
     },
     {
       "name": "FieldMapDiveFailureParallel",
-      "ns_per_op": 174.96666666666667,
+      "ns_per_op": 62.906666666666666,
       "bytes_per_op": 140,
       "allocs_per_op": 5
     },
     {
       "name": "FieldMapDiveSuccess",
-      "ns_per_op": 110.66666666666667,
+      "ns_per_op": 56.14333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldMapDiveSuccessParallel",
-      "ns_per_op": 48.379999999999995,
+      "ns_per_op": 10.022666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldMapDiveWithKeysFailure",
-      "ns_per_op": 392.59999999999997,
+      "ns_per_op": 193.6,
       "bytes_per_op": 252,
       "allocs_per_op": 6
     },
     {
       "name": "FieldMapDiveWithKeysFailureParallel",
-      "ns_per_op": 228.5333333333333,
+      "ns_per_op": 86.95,
       "bytes_per_op": 252,
       "allocs_per_op": 6
     },
     {
       "name": "FieldMapDiveWithKeysSuccess",
-      "ns_per_op": 114.96666666666665,
+      "ns_per_op": 56.26666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldMapDiveWithKeysSuccessParallel",
-      "ns_per_op": 52.13333333333333,
+      "ns_per_op": 10.243333333333332,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldOrTagFailure",
-      "ns_per_op": 126.26666666666667,
+      "ns_per_op": 62.050000000000004,
       "bytes_per_op": 88,
       "allocs_per_op": 3
     },
     {
       "name": "FieldOrTagFailureParallel",
-      "ns_per_op": 74,
+      "ns_per_op": 27.41,
       "bytes_per_op": 88,
       "allocs_per_op": 3
     },
     {
       "name": "FieldOrTagSuccess",
-      "ns_per_op": 65.68333333333334,
+      "ns_per_op": 29.91,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldOrTagSuccessParallel",
-      "ns_per_op": 31.343333333333334,
+      "ns_per_op": 5.4093333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldSuccess",
-      "ns_per_op": 22.883333333333336,
+      "ns_per_op": 10.459999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldSuccessParallel",
-      "ns_per_op": 11.636666666666665,
+      "ns_per_op": 2.1686666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "NestedWorkspace_Invalid",
-      "ns_per_op": 611.3666666666667,
+      "ns_per_op": 264.09999999999997,
       "bytes_per_op": 568,
       "allocs_per_op": 7
     },
     {
       "name": "NestedWorkspace_Valid",
-      "ns_per_op": 450.3666666666666,
+      "ns_per_op": 199.5,
       "bytes_per_op": 96,
       "allocs_per_op": 1
     },
     {
       "name": "Noneof",
-      "ns_per_op": 74.14666666666666,
+      "ns_per_op": 34.32666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "NoneofParallel",
-      "ns_per_op": 32.64666666666667,
+      "ns_per_op": 8.147333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "Oneof",
-      "ns_per_op": 76.34333333333333,
+      "ns_per_op": 33.13666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "OneofParallel",
-      "ns_per_op": 35.76666666666667,
+      "ns_per_op": 9.008,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "ReflectValueOfInterface",
-      "ns_per_op": 0.3234666666666666,
+      "ns_per_op": 0.5079333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "ReflectValueOfString",
-      "ns_per_op": 0.31443333333333334,
+      "ns_per_op": 0.25083333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "RequiredIf",
-      "ns_per_op": 156.53333333333333,
+      "ns_per_op": 77.13666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "SimpleUser_Invalid",
-      "ns_per_op": 374.6666666666667,
+      "ns_per_op": 167.96666666666667,
       "bytes_per_op": 360,
       "allocs_per_op": 5
     },
     {
       "name": "SimpleUser_Valid",
-      "ns_per_op": 202.63333333333335,
+      "ns_per_op": 98.35000000000001,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "StructComplexFailure",
-      "ns_per_op": 1225.3333333333333,
+      "ns_per_op": 553.6333333333333,
       "bytes_per_op": 1368,
       "allocs_per_op": 14
     },
     {
       "name": "StructComplexFailureParallel",
-      "ns_per_op": 1059.0666666666666,
+      "ns_per_op": 362.23333333333335,
       "bytes_per_op": 1368,
       "allocs_per_op": 14
     },
     {
       "name": "StructComplexSuccess",
-      "ns_per_op": 412.1333333333334,
+      "ns_per_op": 212.83333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "StructComplexSuccessParallel",
-      "ns_per_op": 205.36666666666665,
+      "ns_per_op": 39.50333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "StructSimpleCrossFieldFailure",
-      "ns_per_op": 306.36666666666673,
+      "ns_per_op": 131.73333333333332,
       "bytes_per_op": 184,
       "allocs_per_op": 5
     },
     {
       "name": "StructSimpleCrossFieldFailureParallel",
-      "ns_per_op": 178.46666666666667,
+      "ns_per_op": 63.093333333333334,
       "bytes_per_op": 184,
       "allocs_per_op": 5
     },
     {
       "name": "StructSimpleCrossFieldSuccess",
-      "ns_per_op": 171.79999999999998,
+      "ns_per_op": 72.27666666666666,
       "bytes_per_op": 48,
       "allocs_per_op": 2
     },
     {
       "name": "StructSimpleCrossFieldSuccessParallel",
-      "ns_per_op": 86.26333333333334,
+      "ns_per_op": 25.38,
       "bytes_per_op": 48,
       "allocs_per_op": 2
     },
     {
       "name": "StructSimpleCrossStructCrossFieldFailure",
-      "ns_per_op": 482.9666666666667,
+      "ns_per_op": 211.83333333333334,
       "bytes_per_op": 216,
       "allocs_per_op": 6
     },
     {
       "name": "StructSimpleCrossStructCrossFieldFailureParallel",
-      "ns_per_op": 267.43333333333334,
+      "ns_per_op": 89.61666666666667,
       "bytes_per_op": 216,
       "allocs_per_op": 6
     },
     {
       "name": "StructSimpleCrossStructCrossFieldSuccess",
-      "ns_per_op": 350.8,
+      "ns_per_op": 144.00000000000003,
       "bytes_per_op": 80,
       "allocs_per_op": 3
     },
     {
       "name": "StructSimpleCrossStructCrossFieldSuccessParallel",
-      "ns_per_op": 177.5,
+      "ns_per_op": 51.376666666666665,
       "bytes_per_op": 80,
       "allocs_per_op": 3
     },
     {
       "name": "StructSimpleFailure",
-      "ns_per_op": 263.3,
+      "ns_per_op": 121.39999999999999,
       "bytes_per_op": 248,
       "allocs_per_op": 4
     },
     {
       "name": "StructSimpleFailureParallel",
-      "ns_per_op": 180.9666666666667,
+      "ns_per_op": 72.10000000000001,
       "bytes_per_op": 248,
       "allocs_per_op": 4
     },
     {
       "name": "StructSimpleSuccess",
-      "ns_per_op": 105.43333333333334,
+      "ns_per_op": 48.24333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "StructSimpleSuccessParallel",
-      "ns_per_op": 49.24333333333333,
+      "ns_per_op": 9.452,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarPath",
-      "ns_per_op": 4.0680000000000005,
+      "ns_per_op": 2.188333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarPathParallel",
-      "ns_per_op": 2.2416666666666667,
+      "ns_per_op": 0.4035333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarStringPath",
-      "ns_per_op": 3.243,
+      "ns_per_op": 1.538,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarStringPathParallel",
-      "ns_per_op": 1.567,
+      "ns_per_op": 0.3526,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ASCII",
-      "ns_per_op": 29.05333333333333,
+      "ns_per_op": 12.479999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Alpha",
-      "ns_per_op": 27.540000000000003,
+      "ns_per_op": 11.466666666666669,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_AlphaSpace",
-      "ns_per_op": 28.98,
+      "ns_per_op": 13.426666666666668,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_AlphaUnicode",
-      "ns_per_op": 40.12,
+      "ns_per_op": 12.969999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Alphanum",
-      "ns_per_op": 25.916666666666668,
+      "ns_per_op": 11.636666666666665,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_AlphanumSpace",
-      "ns_per_op": 28.149999999999995,
+      "ns_per_op": 12.476666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_AlphanumUnicode",
-      "ns_per_op": 37.38666666666666,
+      "ns_per_op": 18.64,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_BCP47",
-      "ns_per_op": 25.91,
+      "ns_per_op": 11.546666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_BIC",
-      "ns_per_op": 24.360000000000003,
+      "ns_per_op": 10.686666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Base32",
-      "ns_per_op": 48.18,
+      "ns_per_op": 20.206666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Base64",
-      "ns_per_op": 41.01333333333333,
+      "ns_per_op": 18.779999999999998,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Base64RawURL",
-      "ns_per_op": 36.57,
+      "ns_per_op": 16.816666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Base64URL",
-      "ns_per_op": 40.403333333333336,
+      "ns_per_op": 16.923333333333332,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Boolean",
-      "ns_per_op": 18.41,
+      "ns_per_op": 8.955,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_BtcAddr",
-      "ns_per_op": 49.26666666666667,
+      "ns_per_op": 30.766666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_CIDR",
-      "ns_per_op": 39.343333333333334,
+      "ns_per_op": 18.793333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_CIDRv4",
-      "ns_per_op": 41.263333333333335,
+      "ns_per_op": 18.936666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_CIDRv6",
-      "ns_per_op": 61.830000000000005,
+      "ns_per_op": 30.080000000000002,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Contains",
-      "ns_per_op": 23.616666666666664,
+      "ns_per_op": 12.526666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ContainsAny",
-      "ns_per_op": 28.73,
+      "ns_per_op": 12.436666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ContainsRune",
-      "ns_per_op": 65.54666666666667,
+      "ns_per_op": 28.73,
       "bytes_per_op": 48,
       "allocs_per_op": 1
     },
     {
       "name": "VarString_CreditCard",
-      "ns_per_op": 39.97,
+      "ns_per_op": 18.536666666666665,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Cron",
-      "ns_per_op": 62.903333333333336,
+      "ns_per_op": 30.406666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_DNSRFC1035Label",
-      "ns_per_op": 20.32,
+      "ns_per_op": 9.999666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_DataURI",
-      "ns_per_op": 31.873333333333335,
+      "ns_per_op": 16.61666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Datetime",
-      "ns_per_op": 50.77333333333333,
+      "ns_per_op": 25.23333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Dir",
-      "ns_per_op": 1060,
+      "ns_per_op": 390.8666666666666,
       "bytes_per_op": 320,
       "allocs_per_op": 4
     },
     {
       "name": "VarString_DirPath",
-      "ns_per_op": 40.27,
+      "ns_per_op": 18.19,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_E164",
-      "ns_per_op": 24.040000000000003,
+      "ns_per_op": 10.346666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Email",
-      "ns_per_op": 82.45666666666666,
+      "ns_per_op": 35.53,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_EndsNotWith",
-      "ns_per_op": 19.97,
+      "ns_per_op": 9.071666666666665,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_EndsWith",
-      "ns_per_op": 19.983333333333334,
+      "ns_per_op": 8.737,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Eq",
-      "ns_per_op": 19.38,
+      "ns_per_op": 8.411333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_EqIgnoreCase",
-      "ns_per_op": 20.24,
+      "ns_per_op": 9.944,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_EthAddr",
-      "ns_per_op": 38.86333333333334,
+      "ns_per_op": 19.913333333333338,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Excludes",
-      "ns_per_op": 22.156666666666666,
+      "ns_per_op": 10.076666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ExcludesAll",
-      "ns_per_op": 45.52333333333333,
+      "ns_per_op": 21.273333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ExcludesRune",
-      "ns_per_op": 29.406666666666666,
+      "ns_per_op": 13.229999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_FQDN",
-      "ns_per_op": 33.96333333333333,
+      "ns_per_op": 18.166666666666668,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_File",
-      "ns_per_op": 1016.3333333333334,
+      "ns_per_op": 394.09999999999997,
       "bytes_per_op": 320,
       "allocs_per_op": 4
     },
     {
       "name": "VarString_FilePath",
-      "ns_per_op": 45.43,
+      "ns_per_op": 20.6,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Gt",
-      "ns_per_op": 48.07666666666666,
+      "ns_per_op": 22.643333333333334,
       "bytes_per_op": 48,
       "allocs_per_op": 1
     },
     {
       "name": "VarString_Gte",
-      "ns_per_op": 48.10999999999999,
+      "ns_per_op": 22.983333333333334,
       "bytes_per_op": 48,
       "allocs_per_op": 1
     },
     {
       "name": "VarString_HSL",
-      "ns_per_op": 45.67666666666667,
+      "ns_per_op": 22.733333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HSLA",
-      "ns_per_op": 50.18,
+      "ns_per_op": 25.516666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HTML",
-      "ns_per_op": 26.883333333333336,
+      "ns_per_op": 11.173333333333332,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HTMLEncoded",
-      "ns_per_op": 18.813333333333333,
+      "ns_per_op": 9.112,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HTTPSURL",
-      "ns_per_op": 35.93666666666667,
+      "ns_per_op": 19.316666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HTTPURL",
-      "ns_per_op": 36.870000000000005,
+      "ns_per_op": 19.313333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HexColor",
-      "ns_per_op": 22.48,
+      "ns_per_op": 10.14,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Hexadecimal",
-      "ns_per_op": 26.333333333333332,
+      "ns_per_op": 12.180000000000001,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Hostname",
-      "ns_per_op": 34.6,
+      "ns_per_op": 18.553333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_HostnamePort",
-      "ns_per_op": 36.42333333333334,
+      "ns_per_op": 17.656666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_IP",
-      "ns_per_op": 32.25333333333333,
+      "ns_per_op": 16.05333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_IPv4",
-      "ns_per_op": 32.1,
+      "ns_per_op": 16.313333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_IPv6",
-      "ns_per_op": 19.39,
+      "ns_per_op": 8.669666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ISBN10",
-      "ns_per_op": 30.310000000000002,
+      "ns_per_op": 14.473333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_ISBN13",
-      "ns_per_op": 68.68666666666667,
+      "ns_per_op": 30.680000000000003,
       "bytes_per_op": 48,
       "allocs_per_op": 1
     },
     {
       "name": "VarString_ISSN",
-      "ns_per_op": 29.936666666666667,
+      "ns_per_op": 13.526666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_IsDefault",
-      "ns_per_op": 18.123333333333335,
+      "ns_per_op": 7.764333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_JSON",
-      "ns_per_op": 40.90333333333333,
+      "ns_per_op": 19.349999999999998,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Latitude",
-      "ns_per_op": 50.24,
+      "ns_per_op": 24.463333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Len",
-      "ns_per_op": 18.77,
+      "ns_per_op": 8.374666666666668,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Longitude",
-      "ns_per_op": 51.776666666666664,
+      "ns_per_op": 25.666666666666668,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Lowercase",
-      "ns_per_op": 19.673333333333332,
+      "ns_per_op": 9.408,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Lt",
-      "ns_per_op": 16.563333333333333,
+      "ns_per_op": 7.3999999999999995,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Lte",
-      "ns_per_op": 17.223333333333333,
+      "ns_per_op": 7.361666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_LuhnChecksum",
-      "ns_per_op": 39.026666666666664,
+      "ns_per_op": 17.49,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_MAC",
-      "ns_per_op": 38.41,
+      "ns_per_op": 17.966666666666665,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Max",
-      "ns_per_op": 17.886666666666667,
+      "ns_per_op": 7.705000000000001,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Min",
-      "ns_per_op": 19.98333333333333,
+      "ns_per_op": 9.194333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_MongoDB",
-      "ns_per_op": 33.486666666666665,
+      "ns_per_op": 13.696666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_MultiRule",
-      "ns_per_op": 44.17666666666667,
+      "ns_per_op": 20.043333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Multibyte",
-      "ns_per_op": 33.796666666666674,
+      "ns_per_op": 15.453333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Ne",
-      "ns_per_op": 19.373333333333335,
+      "ns_per_op": 8.749,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_NeIgnoreCase",
-      "ns_per_op": 18.69,
+      "ns_per_op": 7.989999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Noneof",
-      "ns_per_op": 17.286666666666665,
+      "ns_per_op": 7.943666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Noneofci",
-      "ns_per_op": 25.343333333333334,
+      "ns_per_op": 11.163333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Number",
-      "ns_per_op": 43.32666666666666,
+      "ns_per_op": 21.013333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Numeric",
-      "ns_per_op": 43.95000000000001,
+      "ns_per_op": 21.113333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Oneof",
-      "ns_per_op": 18.796666666666667,
+      "ns_per_op": 8.344999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Oneofci",
-      "ns_per_op": 19.38,
+      "ns_per_op": 9.345999999999998,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Port",
-      "ns_per_op": 23.223333333333333,
+      "ns_per_op": 10.793333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_PrintASCII",
-      "ns_per_op": 33.82,
+      "ns_per_op": 12.423333333333332,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_RGB",
-      "ns_per_op": 44.03,
+      "ns_per_op": 21.333333333333332,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_RGBA",
-      "ns_per_op": 48.46,
+      "ns_per_op": 23.05666666666666,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Required",
-      "ns_per_op": 3.4323333333333337,
+      "ns_per_op": 1.51,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Semver",
-      "ns_per_op": 53.53666666666667,
+      "ns_per_op": 32.49666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_StartsNotWith",
-      "ns_per_op": 19.386666666666667,
+      "ns_per_op": 8.726333333333335,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_StartsWith",
-      "ns_per_op": 19.36,
+      "ns_per_op": 8.506,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Timezone",
-      "ns_per_op": 33.56333333333333,
+      "ns_per_op": 14.983333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_URI",
-      "ns_per_op": 28.36,
+      "ns_per_op": 13.159999999999998,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_URL",
-      "ns_per_op": 49.71666666666666,
+      "ns_per_op": 25.889999999999997,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_URLEncoded",
-      "ns_per_op": 28.74,
+      "ns_per_op": 14.329999999999998,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_UUID",
-      "ns_per_op": 59.26,
+      "ns_per_op": 20.59,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_UUID3",
-      "ns_per_op": 50.169999999999995,
+      "ns_per_op": 23.03333333333333,
       "bytes_per_op": 48,
       "allocs_per_op": 1
     },
     {
       "name": "VarString_UUID4",
-      "ns_per_op": 59.876666666666665,
+      "ns_per_op": 20.363333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_UUID5",
-      "ns_per_op": 71.82666666666667,
+      "ns_per_op": 20.38333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Unique",
-      "ns_per_op": 127.06666666666666,
+      "ns_per_op": 56.18333333333334,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarString_Uppercase",
-      "ns_per_op": 19.353333333333335,
+      "ns_per_op": 9.456666666666665,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "Var_ASCII",
-      "ns_per_op": 60.67333333333334,
+      "ns_per_op": 25.583333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Alpha",
-      "ns_per_op": 61.49333333333333,
+      "ns_per_op": 24.183333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_AlphaSpace",
-      "ns_per_op": 60.156666666666666,
+      "ns_per_op": 26.94666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_AlphaUnicode",
-      "ns_per_op": 69.41000000000001,
+      "ns_per_op": 26.333333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Alphanum",
-      "ns_per_op": 57.223333333333336,
+      "ns_per_op": 25.340000000000003,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_AlphanumSpace",
-      "ns_per_op": 59.330000000000005,
+      "ns_per_op": 25.923333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_AlphanumUnicode",
-      "ns_per_op": 68.14333333333333,
+      "ns_per_op": 32.01333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_BCP47",
-      "ns_per_op": 71.05333333333333,
+      "ns_per_op": 25.456666666666663,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_BIC",
-      "ns_per_op": 61.74333333333333,
+      "ns_per_op": 24.28,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base32",
-      "ns_per_op": 71.27333333333333,
+      "ns_per_op": 33.653333333333336,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base64",
-      "ns_per_op": 72.04333333333334,
+      "ns_per_op": 33.49,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base64RawURL",
-      "ns_per_op": 67.73333333333333,
+      "ns_per_op": 30.209999999999997,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base64URL",
-      "ns_per_op": 73.31,
+      "ns_per_op": 30.459999999999997,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Boolean",
-      "ns_per_op": 56.26333333333333,
+      "ns_per_op": 23.213333333333328,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_BtcAddr",
-      "ns_per_op": 83.49333333333334,
+      "ns_per_op": 43.94,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_CIDR",
-      "ns_per_op": 71.64,
+      "ns_per_op": 33.32333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_CIDRv4",
-      "ns_per_op": 75.60333333333334,
+      "ns_per_op": 33.623333333333335,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_CIDRv6",
-      "ns_per_op": 94.61333333333333,
+      "ns_per_op": 43.75666666666666,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Contains",
-      "ns_per_op": 57.19,
+      "ns_per_op": 26.320000000000004,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ContainsAny",
-      "ns_per_op": 59.97,
+      "ns_per_op": 26.52,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ContainsRune",
-      "ns_per_op": 147,
+      "ns_per_op": 71.23,
       "bytes_per_op": 104,
       "allocs_per_op": 4
     },
     {
       "name": "Var_CreditCard",
-      "ns_per_op": 71.82,
+      "ns_per_op": 32.21333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Cron",
-      "ns_per_op": 98.16000000000001,
+      "ns_per_op": 45.31,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_DNSRFC1035Label",
-      "ns_per_op": 52.46333333333334,
+      "ns_per_op": 23.14,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_DataURI",
-      "ns_per_op": 70.72000000000001,
+      "ns_per_op": 30.103333333333335,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Datetime",
-      "ns_per_op": 84.34,
+      "ns_per_op": 39.416666666666664,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Dir",
-      "ns_per_op": 1138.6666666666667,
+      "ns_per_op": 433.1333333333334,
       "bytes_per_op": 376,
       "allocs_per_op": 7
     },
     {
       "name": "Var_DirPath",
-      "ns_per_op": 86.36333333333333,
+      "ns_per_op": 31.786666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_E164",
-      "ns_per_op": 55.330000000000005,
+      "ns_per_op": 23.709999999999997,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Email",
-      "ns_per_op": 119.66666666666667,
+      "ns_per_op": 49.57333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_EndsNotWith",
-      "ns_per_op": 51.01666666666667,
+      "ns_per_op": 23.466666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_EndsWith",
-      "ns_per_op": 38.71,
+      "ns_per_op": 16.803333333333335,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Eq",
-      "ns_per_op": 50.18000000000001,
+      "ns_per_op": 22.113333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_EqIgnoreCase",
-      "ns_per_op": 52.73,
+      "ns_per_op": 24.083333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_EthAddr",
-      "ns_per_op": 70.86333333333334,
+      "ns_per_op": 33.169999999999995,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Excludes",
-      "ns_per_op": 58.126666666666665,
+      "ns_per_op": 24.166666666666668,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ExcludesAll",
-      "ns_per_op": 76.35333333333334,
+      "ns_per_op": 36.11,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ExcludesRune",
-      "ns_per_op": 67.88666666666667,
+      "ns_per_op": 27.30333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_FQDN",
-      "ns_per_op": 65.75333333333333,
+      "ns_per_op": 31.483333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_File",
-      "ns_per_op": 1134.6666666666667,
+      "ns_per_op": 434.90000000000003,
       "bytes_per_op": 376,
       "allocs_per_op": 7
     },
     {
       "name": "Var_FilePath",
-      "ns_per_op": 96.64,
+      "ns_per_op": 34.18333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Gt",
-      "ns_per_op": 133.50000000000003,
+      "ns_per_op": 64.79,
       "bytes_per_op": 104,
       "allocs_per_op": 4
     },
     {
       "name": "Var_Gte",
-      "ns_per_op": 133.26666666666665,
+      "ns_per_op": 66.80666666666666,
       "bytes_per_op": 104,
       "allocs_per_op": 4
     },
     {
       "name": "Var_HSL",
-      "ns_per_op": 83.75,
+      "ns_per_op": 36.27666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HSLA",
-      "ns_per_op": 87.33333333333333,
+      "ns_per_op": 39.01666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTML",
-      "ns_per_op": 58.080000000000005,
+      "ns_per_op": 25.173333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTMLEncoded",
-      "ns_per_op": 49.923333333333325,
+      "ns_per_op": 21.95,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTTPSURL",
-      "ns_per_op": 67.02999999999999,
+      "ns_per_op": 33.083333333333336,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTTPURL",
-      "ns_per_op": 67.27,
+      "ns_per_op": 33.68000000000001,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HexColor",
-      "ns_per_op": 53.60666666666666,
+      "ns_per_op": 23.55333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Hexadecimal",
-      "ns_per_op": 57.50666666666667,
+      "ns_per_op": 25.846666666666668,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Hostname",
-      "ns_per_op": 72.52,
+      "ns_per_op": 31.526666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HostnamePort",
-      "ns_per_op": 75.1,
+      "ns_per_op": 31.773333333333337,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IP",
-      "ns_per_op": 62.64666666666667,
+      "ns_per_op": 30.636666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IPv4",
-      "ns_per_op": 62.843333333333334,
+      "ns_per_op": 30.226666666666663,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IPv6",
-      "ns_per_op": 53.49000000000001,
+      "ns_per_op": 22.790000000000003,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ISBN10",
-      "ns_per_op": 63.84333333333333,
+      "ns_per_op": 27.613333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_ISBN13",
-      "ns_per_op": 155.73333333333332,
+      "ns_per_op": 72.15,
       "bytes_per_op": 104,
       "allocs_per_op": 4
     },
     {
       "name": "Var_ISSN",
-      "ns_per_op": 63.22666666666667,
+      "ns_per_op": 26.763333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IsDefault",
-      "ns_per_op": 27.94666666666667,
+      "ns_per_op": 11.796666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "Var_JSON",
-      "ns_per_op": 74.50333333333333,
+      "ns_per_op": 32.986666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Latitude",
-      "ns_per_op": 82.34333333333335,
+      "ns_per_op": 39.083333333333336,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Len",
-      "ns_per_op": 49.24666666666667,
+      "ns_per_op": 22.22,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Longitude",
-      "ns_per_op": 82.95,
+      "ns_per_op": 39.919999999999995,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lowercase",
-      "ns_per_op": 53.346666666666664,
+      "ns_per_op": 23.209999999999997,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lt",
-      "ns_per_op": 48.81333333333333,
+      "ns_per_op": 21.39,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lte",
-      "ns_per_op": 49.23333333333333,
+      "ns_per_op": 21.876666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_LuhnChecksum",
-      "ns_per_op": 70.86666666666666,
+      "ns_per_op": 31.59,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_MAC",
-      "ns_per_op": 84.22666666666667,
+      "ns_per_op": 30.903333333333336,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Max",
-      "ns_per_op": 49.45666666666667,
+      "ns_per_op": 21.259999999999998,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Min",
-      "ns_per_op": 50.48,
+      "ns_per_op": 22.930000000000003,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_MongoDB",
-      "ns_per_op": 64.76,
+      "ns_per_op": 27.23333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_MultiRule",
-      "ns_per_op": 75.48333333333333,
+      "ns_per_op": 33.61666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Multibyte",
-      "ns_per_op": 65.34333333333335,
+      "ns_per_op": 28.953333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Ne",
-      "ns_per_op": 50.16,
+      "ns_per_op": 22.86,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_NeIgnoreCase",
-      "ns_per_op": 50.74,
+      "ns_per_op": 22.143333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Noneof",
-      "ns_per_op": 51.29333333333333,
+      "ns_per_op": 21.913333333333338,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Noneofci",
-      "ns_per_op": 58.583333333333336,
+      "ns_per_op": 25.313333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Number",
-      "ns_per_op": 76.03333333333333,
+      "ns_per_op": 35.440000000000005,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Numeric",
-      "ns_per_op": 76.29,
+      "ns_per_op": 35.733333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Oneof",
-      "ns_per_op": 51.04,
+      "ns_per_op": 22.703333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Oneofci",
-      "ns_per_op": 51.923333333333325,
+      "ns_per_op": 22.540000000000003,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Port",
-      "ns_per_op": 54.82333333333333,
+      "ns_per_op": 30.959999999999997,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_PrintASCII",
-      "ns_per_op": 64.67666666666668,
+      "ns_per_op": 25.71666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_RGB",
-      "ns_per_op": 96.11,
+      "ns_per_op": 34.843333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_RGBA",
-      "ns_per_op": 104.60666666666667,
+      "ns_per_op": 36.96666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Required",
-      "ns_per_op": 31.346666666666664,
+      "ns_per_op": 12.290000000000001,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Semver",
-      "ns_per_op": 86.19666666666667,
+      "ns_per_op": 47.42333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_StartsNotWith",
-      "ns_per_op": 51.32333333333333,
+      "ns_per_op": 22.95,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_StartsWith",
-      "ns_per_op": 51.526666666666664,
+      "ns_per_op": 22.30333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Timezone",
-      "ns_per_op": 67.67999999999999,
+      "ns_per_op": 28.763333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_URI",
-      "ns_per_op": 59.25,
+      "ns_per_op": 27.27333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_URL",
-      "ns_per_op": 81.07666666666667,
+      "ns_per_op": 41.49666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_URLEncoded",
-      "ns_per_op": 59.96333333333333,
+      "ns_per_op": 27.736666666666668,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID",
-      "ns_per_op": 89.50333333333333,
+      "ns_per_op": 34.73666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID3",
-      "ns_per_op": 135.03333333333333,
+      "ns_per_op": 63.78,
       "bytes_per_op": 104,
       "allocs_per_op": 4
     },
     {
       "name": "Var_UUID4",
-      "ns_per_op": 84.84666666666666,
+      "ns_per_op": 33.916666666666664,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID5",
-      "ns_per_op": 92.82,
+      "ns_per_op": 34.550000000000004,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Unique",
-      "ns_per_op": 161.2,
+      "ns_per_op": 71.99666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Uppercase",
-      "ns_per_op": 50.71,
+      "ns_per_op": 23.33666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     }
@@ -1528,619 +1528,619 @@
   "playground": [
     {
       "name": "ComplexOrder_Invalid",
-      "ns_per_op": 3554.6666666666665,
-      "bytes_per_op": 3081,
+      "ns_per_op": 1482,
+      "bytes_per_op": 3083,
       "allocs_per_op": 41
     },
     {
       "name": "ComplexOrder_Valid",
-      "ns_per_op": 6372.333333333333,
-      "bytes_per_op": 582,
+      "ns_per_op": 2613,
+      "bytes_per_op": 587,
       "allocs_per_op": 19
     },
     {
       "name": "EqField",
-      "ns_per_op": 246.73333333333335,
+      "ns_per_op": 111.73333333333333,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldArrayDiveFailure",
-      "ns_per_op": 623.1333333333333,
+      "ns_per_op": 275.59999999999997,
       "bytes_per_op": 348,
       "allocs_per_op": 13
     },
     {
       "name": "FieldArrayDiveFailureParallel",
-      "ns_per_op": 353.43333333333334,
-      "bytes_per_op": 348,
+      "ns_per_op": 157.43333333333337,
+      "bytes_per_op": 349,
       "allocs_per_op": 13
     },
     {
       "name": "FieldArrayDiveSuccess",
-      "ns_per_op": 425.3333333333333,
+      "ns_per_op": 190.26666666666665,
       "bytes_per_op": 145,
       "allocs_per_op": 8
     },
     {
       "name": "FieldArrayDiveSuccessParallel",
-      "ns_per_op": 220.20000000000002,
+      "ns_per_op": 92.03000000000002,
       "bytes_per_op": 145,
       "allocs_per_op": 8
     },
     {
       "name": "FieldFailure",
-      "ns_per_op": 283.3333333333333,
+      "ns_per_op": 125.89999999999999,
       "bytes_per_op": 216,
       "allocs_per_op": 5
     },
     {
       "name": "FieldFailureParallel",
-      "ns_per_op": 177.96666666666667,
+      "ns_per_op": 71.90666666666667,
       "bytes_per_op": 216,
       "allocs_per_op": 5
     },
     {
       "name": "FieldMapDiveFailure",
-      "ns_per_op": 946.0666666666666,
+      "ns_per_op": 402.6666666666667,
       "bytes_per_op": 424,
       "allocs_per_op": 15
     },
     {
       "name": "FieldMapDiveFailureParallel",
-      "ns_per_op": 518.7333333333333,
+      "ns_per_op": 211.9333333333333,
       "bytes_per_op": 424,
       "allocs_per_op": 15
     },
     {
       "name": "FieldMapDiveSuccess",
-      "ns_per_op": 1158.3333333333333,
+      "ns_per_op": 510.76666666666665,
       "bytes_per_op": 360,
       "allocs_per_op": 17
     },
     {
       "name": "FieldMapDiveSuccessParallel",
-      "ns_per_op": 592.5333333333333,
+      "ns_per_op": 222.30000000000004,
       "bytes_per_op": 360,
       "allocs_per_op": 17
     },
     {
       "name": "FieldMapDiveWithKeysFailure",
-      "ns_per_op": 1150.6666666666667,
+      "ns_per_op": 520.5666666666667,
       "bytes_per_op": 601,
       "allocs_per_op": 18
     },
     {
       "name": "FieldMapDiveWithKeysFailureParallel",
-      "ns_per_op": 678.6666666666666,
+      "ns_per_op": 282.76666666666665,
       "bytes_per_op": 601,
       "allocs_per_op": 18
     },
     {
       "name": "FieldMapDiveWithKeysSuccess",
-      "ns_per_op": 1252.6666666666667,
+      "ns_per_op": 530.2333333333335,
       "bytes_per_op": 360,
       "allocs_per_op": 17
     },
     {
       "name": "FieldMapDiveWithKeysSuccessParallel",
-      "ns_per_op": 798,
+      "ns_per_op": 246.76666666666665,
       "bytes_per_op": 360,
       "allocs_per_op": 17
     },
     {
       "name": "FieldOrTagFailure",
-      "ns_per_op": 254.0666666666667,
+      "ns_per_op": 119.76666666666667,
       "bytes_per_op": 200,
       "allocs_per_op": 4
     },
     {
       "name": "FieldOrTagFailureParallel",
-      "ns_per_op": 166.5,
+      "ns_per_op": 71.47666666666667,
       "bytes_per_op": 200,
       "allocs_per_op": 4
     },
     {
       "name": "FieldOrTagSuccess",
-      "ns_per_op": 531.8,
+      "ns_per_op": 237.36666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldOrTagSuccessParallel",
-      "ns_per_op": 248.19999999999996,
+      "ns_per_op": 48.99666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "FieldSuccess",
-      "ns_per_op": 112.3,
+      "ns_per_op": 47.93666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "FieldSuccessParallel",
-      "ns_per_op": 57.129999999999995,
+      "ns_per_op": 17.81,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "NestedWorkspace_Invalid",
-      "ns_per_op": 3570.3333333333335,
-      "bytes_per_op": 2793,
+      "ns_per_op": 1456.3333333333333,
+      "bytes_per_op": 2795,
       "allocs_per_op": 49
     },
     {
       "name": "NestedWorkspace_Valid",
-      "ns_per_op": 5656,
-      "bytes_per_op": 979,
+      "ns_per_op": 2373,
+      "bytes_per_op": 987,
       "allocs_per_op": 33
     },
     {
       "name": "Oneof",
-      "ns_per_op": 162.46666666666667,
+      "ns_per_op": 67.43333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "OneofParallel",
-      "ns_per_op": 83.67333333333333,
+      "ns_per_op": 92.02333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "RequiredIf",
-      "ns_per_op": 353.7666666666667,
+      "ns_per_op": 143.43333333333337,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "SimpleUser_Invalid",
-      "ns_per_op": 1303.6666666666667,
+      "ns_per_op": 487.8333333333333,
       "bytes_per_op": 744,
       "allocs_per_op": 18
     },
     {
       "name": "SimpleUser_Valid",
-      "ns_per_op": 1446.6666666666667,
-      "bytes_per_op": 96,
+      "ns_per_op": 561.9666666666667,
+      "bytes_per_op": 97,
       "allocs_per_op": 5
     },
     {
       "name": "StructComplexFailure",
-      "ns_per_op": 3351.3333333333335,
-      "bytes_per_op": 2968,
+      "ns_per_op": 1478.6666666666667,
+      "bytes_per_op": 2969,
       "allocs_per_op": 56
     },
     {
       "name": "StructComplexFailureParallel",
-      "ns_per_op": 2388.3333333333335,
-      "bytes_per_op": 2968,
+      "ns_per_op": 956.6333333333333,
+      "bytes_per_op": 2969,
       "allocs_per_op": 56
     },
     {
       "name": "StructComplexSuccess",
-      "ns_per_op": 1280,
+      "ns_per_op": 556.7,
       "bytes_per_op": 224,
       "allocs_per_op": 14
     },
     {
       "name": "StructComplexSuccessParallel",
-      "ns_per_op": 664.1,
+      "ns_per_op": 198.29999999999998,
       "bytes_per_op": 224,
       "allocs_per_op": 14
     },
     {
       "name": "StructSimpleCrossFieldFailure",
-      "ns_per_op": 754.9333333333334,
+      "ns_per_op": 318.23333333333335,
       "bytes_per_op": 384,
       "allocs_per_op": 11
     },
     {
       "name": "StructSimpleCrossFieldFailureParallel",
-      "ns_per_op": 421.8666666666666,
+      "ns_per_op": 148.20000000000002,
       "bytes_per_op": 384,
       "allocs_per_op": 11
     },
     {
       "name": "StructSimpleCrossFieldSuccess",
-      "ns_per_op": 524.5,
+      "ns_per_op": 237.16666666666666,
       "bytes_per_op": 168,
       "allocs_per_op": 6
     },
     {
       "name": "StructSimpleCrossFieldSuccessParallel",
-      "ns_per_op": 267.8333333333333,
+      "ns_per_op": 85.04,
       "bytes_per_op": 168,
       "allocs_per_op": 6
     },
     {
       "name": "StructSimpleCrossStructCrossFieldFailure",
-      "ns_per_op": 1020.6666666666666,
+      "ns_per_op": 444.3666666666666,
       "bytes_per_op": 440,
       "allocs_per_op": 13
     },
     {
       "name": "StructSimpleCrossStructCrossFieldFailureParallel",
-      "ns_per_op": 549.5333333333333,
+      "ns_per_op": 186.29999999999998,
       "bytes_per_op": 440,
       "allocs_per_op": 13
     },
     {
       "name": "StructSimpleCrossStructCrossFieldSuccess",
-      "ns_per_op": 778.5333333333333,
+      "ns_per_op": 346.3666666666666,
       "bytes_per_op": 200,
       "allocs_per_op": 8
     },
     {
       "name": "StructSimpleCrossStructCrossFieldSuccessParallel",
-      "ns_per_op": 439.0333333333333,
+      "ns_per_op": 120.53333333333335,
       "bytes_per_op": 200,
       "allocs_per_op": 8
     },
     {
       "name": "StructSimpleFailure",
-      "ns_per_op": 617.5,
+      "ns_per_op": 298.9666666666667,
       "bytes_per_op": 440,
       "allocs_per_op": 11
     },
     {
       "name": "StructSimpleFailureParallel",
-      "ns_per_op": 382.73333333333335,
+      "ns_per_op": 146.20000000000002,
       "bytes_per_op": 440,
       "allocs_per_op": 11
     },
     {
       "name": "StructSimpleSuccess",
-      "ns_per_op": 319.03333333333336,
+      "ns_per_op": 131.03333333333333,
       "bytes_per_op": 24,
       "allocs_per_op": 2
     },
     {
       "name": "StructSimpleSuccessParallel",
-      "ns_per_op": 161.86666666666667,
+      "ns_per_op": 36.166666666666664,
       "bytes_per_op": 24,
       "allocs_per_op": 2
     },
     {
       "name": "VarPath",
-      "ns_per_op": 56.88666666666666,
+      "ns_per_op": 26.546666666666667,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "VarPathParallel",
-      "ns_per_op": 28.436666666666667,
+      "ns_per_op": 6.323999999999999,
       "bytes_per_op": 0,
       "allocs_per_op": 0
     },
     {
       "name": "Var_ASCII",
-      "ns_per_op": 358.7,
+      "ns_per_op": 171.53333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Alpha",
-      "ns_per_op": 303.2,
+      "ns_per_op": 142.16666666666666,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Alphanum",
-      "ns_per_op": 287.7,
+      "ns_per_op": 121.76666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base64",
-      "ns_per_op": 331.49999999999994,
+      "ns_per_op": 152.96666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Base64URL",
-      "ns_per_op": 331.00000000000006,
+      "ns_per_op": 143.79999999999998,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Boolean",
-      "ns_per_op": 96.54333333333334,
+      "ns_per_op": 41.71,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_CIDR",
-      "ns_per_op": 224.36666666666667,
+      "ns_per_op": 102.13,
       "bytes_per_op": 88,
       "allocs_per_op": 5
     },
     {
       "name": "Var_Contains",
-      "ns_per_op": 90.77,
+      "ns_per_op": 44.49,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Datetime",
-      "ns_per_op": 452.5333333333333,
+      "ns_per_op": 207.86666666666667,
       "bytes_per_op": 400,
       "allocs_per_op": 9
     },
     {
       "name": "Var_E164",
-      "ns_per_op": 278.2,
+      "ns_per_op": 120,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Email",
-      "ns_per_op": 1090.6666666666667,
-      "bytes_per_op": 104,
+      "ns_per_op": 467.23333333333335,
+      "bytes_per_op": 105,
       "allocs_per_op": 6
     },
     {
       "name": "Var_EndsWith",
-      "ns_per_op": 93.92333333333333,
+      "ns_per_op": 41.876666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Eq",
-      "ns_per_op": 93.55333333333333,
+      "ns_per_op": 42.76333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_FQDN",
-      "ns_per_op": 397.43333333333334,
+      "ns_per_op": 175.5,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Gt",
-      "ns_per_op": 237.29999999999998,
+      "ns_per_op": 117,
       "bytes_per_op": 200,
       "allocs_per_op": 4
     },
     {
       "name": "Var_Gte",
-      "ns_per_op": 238.53333333333333,
+      "ns_per_op": 121.36666666666667,
       "bytes_per_op": 200,
       "allocs_per_op": 4
     },
     {
       "name": "Var_HSL",
-      "ns_per_op": 458.3999999999999,
+      "ns_per_op": 200.5333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HSLA",
-      "ns_per_op": 538.4333333333333,
+      "ns_per_op": 243.36666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTML",
-      "ns_per_op": 251.0666666666667,
+      "ns_per_op": 107.33333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HTMLEncoded",
-      "ns_per_op": 225.70000000000002,
+      "ns_per_op": 100.55333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HexColor",
-      "ns_per_op": 333.90000000000003,
+      "ns_per_op": 143.20000000000002,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Hexadecimal",
-      "ns_per_op": 313.96666666666664,
+      "ns_per_op": 135.06666666666666,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Hostname",
-      "ns_per_op": 448.23333333333335,
+      "ns_per_op": 199.0666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_HostnamePort",
-      "ns_per_op": 425.3,
+      "ns_per_op": 177.29999999999998,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IP",
-      "ns_per_op": 127.5,
+      "ns_per_op": 50.20666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IPv4",
-      "ns_per_op": 123.63333333333333,
+      "ns_per_op": 53.29333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_IPv6",
-      "ns_per_op": 122.56666666666666,
+      "ns_per_op": 50.876666666666665,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_JSON",
-      "ns_per_op": 165.16666666666666,
+      "ns_per_op": 81.51333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Latitude",
-      "ns_per_op": 292.7333333333333,
+      "ns_per_op": 126.2,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Len",
-      "ns_per_op": 105.96666666666665,
+      "ns_per_op": 48.336666666666666,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Longitude",
-      "ns_per_op": 334,
+      "ns_per_op": 151.4,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lowercase",
-      "ns_per_op": 93.26666666666667,
+      "ns_per_op": 43.370000000000005,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lt",
-      "ns_per_op": 102.13333333333334,
+      "ns_per_op": 47.63999999999999,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Lte",
-      "ns_per_op": 100.63,
+      "ns_per_op": 49.15666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_MAC",
-      "ns_per_op": 160.0666666666667,
+      "ns_per_op": 97.62333333333333,
       "bytes_per_op": 24,
       "allocs_per_op": 2
     },
     {
       "name": "Var_Max",
-      "ns_per_op": 107.43333333333334,
+      "ns_per_op": 44.61666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Min",
-      "ns_per_op": 111.66666666666667,
+      "ns_per_op": 47.029999999999994,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_MultiRule",
-      "ns_per_op": 161.66666666666666,
+      "ns_per_op": 70.28000000000002,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Multibyte",
-      "ns_per_op": 177.33333333333334,
+      "ns_per_op": 69.80999999999999,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Ne",
-      "ns_per_op": 100.27,
+      "ns_per_op": 44.169999999999995,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Number",
-      "ns_per_op": 214.33333333333334,
+      "ns_per_op": 97.90333333333332,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Oneof",
-      "ns_per_op": 115.63333333333333,
+      "ns_per_op": 48.42666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Oneofci",
-      "ns_per_op": 118.86666666666667,
+      "ns_per_op": 51.1,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_RGB",
-      "ns_per_op": 512.6999999999999,
+      "ns_per_op": 227.46666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_RGBA",
-      "ns_per_op": 594.5333333333334,
+      "ns_per_op": 267.1333333333334,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Required",
-      "ns_per_op": 82.47,
+      "ns_per_op": 39.24666666666666,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_StartsWith",
-      "ns_per_op": 94.27,
+      "ns_per_op": 41.24333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_URI",
-      "ns_per_op": 214.4,
+      "ns_per_op": 97.00999999999999,
       "bytes_per_op": 160,
       "allocs_per_op": 2
     },
     {
       "name": "Var_URL",
-      "ns_per_op": 385.7,
+      "ns_per_op": 158.33333333333334,
       "bytes_per_op": 160,
       "allocs_per_op": 2
     },
     {
       "name": "Var_URLEncoded",
-      "ns_per_op": 455.4666666666667,
+      "ns_per_op": 204.63333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID",
-      "ns_per_op": 457.3999999999999,
+      "ns_per_op": 218.5666666666667,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID3",
-      "ns_per_op": 385.3999999999999,
+      "ns_per_op": 188.66666666666666,
       "bytes_per_op": 200,
       "allocs_per_op": 4
     },
     {
       "name": "Var_UUID4",
-      "ns_per_op": 460.9666666666667,
+      "ns_per_op": 211.1,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_UUID5",
-      "ns_per_op": 459.6000000000001,
+      "ns_per_op": 209.4333333333333,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     },
     {
       "name": "Var_Uppercase",
-      "ns_per_op": 95.04,
+      "ns_per_op": 43.46,
       "bytes_per_op": 16,
       "allocs_per_op": 1
     }

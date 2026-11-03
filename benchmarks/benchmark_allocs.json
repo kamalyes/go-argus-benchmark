@@ -4,7 +4,7 @@
     "argus_allocs": 16,
     "playground_allocs": 41,
     "argus_bytes": 1688,
-    "playground_bytes": 3081,
+    "playground_bytes": 3083,
     "winner": "go-argus"
   },
   {
@@ -12,7 +12,7 @@
     "argus_allocs": 1,
     "playground_allocs": 19,
     "argus_bytes": 208,
-    "playground_bytes": 582,
+    "playground_bytes": 587,
     "winner": "go-argus"
   },
   {
@@ -36,7 +36,7 @@
     "argus_allocs": 7,
     "playground_allocs": 13,
     "argus_bytes": 176,
-    "playground_bytes": 348,
+    "playground_bytes": 349,
     "winner": "go-argus"
   },
   {
@@ -188,7 +188,7 @@
     "argus_allocs": 7,
     "playground_allocs": 49,
     "argus_bytes": 568,
-    "playground_bytes": 2793,
+    "playground_bytes": 2795,
     "winner": "go-argus"
   },
   {
@@ -196,7 +196,7 @@
     "argus_allocs": 1,
     "playground_allocs": 33,
     "argus_bytes": 96,
-    "playground_bytes": 979,
+    "playground_bytes": 987,
     "winner": "go-argus"
   },
   {
@@ -236,7 +236,7 @@
     "argus_allocs": 0,
     "playground_allocs": 5,
     "argus_bytes": 0,
-    "playground_bytes": 96,
+    "playground_bytes": 97,
     "winner": "go-argus"
   },
   {
@@ -244,7 +244,7 @@
     "argus_allocs": 14,
     "playground_allocs": 56,
     "argus_bytes": 1368,
-    "playground_bytes": 2968,
+    "playground_bytes": 2969,
     "winner": "go-argus"
   },
   {
@@ -252,7 +252,7 @@
     "argus_allocs": 14,
     "playground_allocs": 56,
     "argus_bytes": 1368,
-    "playground_bytes": 2968,
+    "playground_bytes": 2969,
     "winner": "go-argus"
   },
   {
@@ -468,7 +468,7 @@
     "argus_allocs": 1,
     "playground_allocs": 6,
     "argus_bytes": 16,
-    "playground_bytes": 104,
+    "playground_bytes": 105,
     "winner": "go-argus"
   },
   {
